@@ -1,0 +1,214 @@
+Model run by psingleton using Apollo 0.3.0 on R 4.2.1 for Windows.
+Please acknowledge the use of Apollo by citing Hess & Palma (2019)
+  DOI 10.1016/j.jocm.2019.100170
+  www.ApolloChoiceModelling.com
+
+Model name                                  : A
+Model description                           : MNL
+Model run at                                : 2023-08-15 07:11:35
+Estimation method                           : bgw
+Model diagnosis                             : Relative function convergence
+Optimisation diagnosis                      : Maximum found
+     hessian properties                     : Negative definite
+     maximum eigenvalue                     : -304.495986
+     reciprocal of condition number         : 0.00408925
+Number of individuals                       : 675
+Number of rows in database                  : 6750
+Number of modelled outcomes                 : 6750
+
+Number of cores used                        :  7 
+Model without mixing
+
+LL(start)                                   : -7159.85
+LL at equal shares, LL(0)                   : -7415.63
+LL at observed shares, LL(C)                : -7285.02
+LL(final)                                   : -7156.72
+Rho-squared vs equal shares                  :  0.0349 
+Adj.Rho-squared vs equal shares              :  0.0341 
+Rho-squared vs observed shares               :  0.0176 
+Adj.Rho-squared vs observed shares           :  0.0171 
+AIC                                         :  14325.43 
+BIC                                         :  14366.34 
+
+Estimated parameters                        : 6
+Time taken (hh:mm:ss)                       :  00:00:22.31 
+     pre-estimation                         :  00:00:21.45 
+     estimation                             :  00:00:0.32 
+          initial estimation                :  00:00:0.23 
+          estimation after rescaling        :  00:00:0.09 
+     post-estimation                        :  00:00:0.54 
+Iterations                                  :  7  
+     initial estimation                     :  6 
+     estimation after rescaling             :  1 
+
+Unconstrained optimisation.
+
+Estimates:
+        Estimate        s.e.   t.rat.(0)  p(2-sided)    Rob.s.e. Rob.t.rat.(0)  p(2-sided)
+ascC     0.49783    0.030686      16.223    0.000000     0.04581        10.868    0.000000
+ascA     0.18310    0.032705       5.598   2.162e-08     0.03392         5.398   6.745e-08
+ascB     0.00000          NA          NA          NA          NA            NA          NA
+b_TC    -0.05651    0.006170      -9.159    0.000000     0.01830        -3.087    0.002020
+g_TC     1.00000          NA          NA          NA          NA            NA          NA
+g_TT     0.40804    0.055085       7.407   1.288e-13     0.13175         3.097    0.001954
+g_WT    -0.11474    0.030788      -3.727  1.9402e-04     0.05158        -2.224    0.026132
+g_IN    -0.06866    0.021344      -3.217    0.001296     0.02899        -2.368    0.017874
+
+
+Overview of choices for MNL model component :
+                                       C       A       B
+Times available                  6750.00 6750.00 6750.00
+Times chosen                     2843.00 2139.00 1768.00
+Percentage chosen overall          42.12   31.69   26.19
+Percentage chosen when available   42.12   31.69   26.19
+
+
+
+Classical covariance matrix:
+            ascC        ascA        b_TC        g_TT        g_WT        g_IN
+ascC  9.4161e-04  5.8434e-04  -1.246e-05  -1.001e-05  -3.770e-06  -9.344e-06
+ascA  5.8434e-04    0.001070  -4.976e-06  -4.447e-05   3.770e-05  -5.803e-07
+b_TC  -1.246e-05  -4.976e-06   3.806e-05  2.6493e-04  -8.360e-05  -3.658e-05
+g_TT  -1.001e-05  -4.447e-05  2.6493e-04    0.003034 -6.0690e-04 -4.4055e-04
+g_WT  -3.770e-06   3.770e-05  -8.360e-05 -6.0690e-04  9.4787e-04  -5.559e-05
+g_IN  -9.344e-06  -5.803e-07  -3.658e-05 -4.4055e-04  -5.559e-05  4.5555e-04
+
+Robust covariance matrix:
+            ascC        ascA        b_TC        g_TT        g_WT        g_IN
+ascC    0.002098  6.2826e-04  -7.641e-05 -4.4200e-04   5.433e-05   2.753e-05
+ascA  6.2826e-04    0.001151  -1.526e-05 -2.1092e-04   6.580e-05  -3.742e-06
+b_TC  -7.641e-05  -1.526e-05  3.3502e-04    0.002252 -7.5340e-04 -2.7133e-04
+g_TT -4.4200e-04 -2.1092e-04    0.002252    0.017358   -0.004729   -0.002040
+g_WT   5.433e-05   6.580e-05 -7.5340e-04   -0.004729    0.002661  4.5437e-04
+g_IN   2.753e-05  -3.742e-06 -2.7133e-04   -0.002040  4.5437e-04  8.4049e-04
+
+Classical correlation matrix:
+            ascC        ascA        b_TC        g_TT        g_WT        g_IN
+ascC    1.000000     0.58225    -0.06579   -0.005924   -0.003990    -0.01427
+ascA    0.582248     1.00000    -0.02466   -0.024685    0.037438 -8.3134e-04
+b_TC   -0.065790    -0.02466     1.00000    0.779537   -0.440110    -0.27779
+g_TT   -0.005924    -0.02468     0.77954    1.000000   -0.357856    -0.37471
+g_WT   -0.003990     0.03744    -0.44011   -0.357856    1.000000    -0.08459
+g_IN   -0.014267 -8.3134e-04    -0.27779   -0.374709   -0.084590     1.00000
+
+Robust correlation matrix:
+            ascC        ascA        b_TC        g_TT        g_WT        g_IN
+ascC     1.00000    0.404341    -0.09113    -0.07324     0.02299    0.020730
+ascA     0.40434    1.000000    -0.02459    -0.04719     0.03761   -0.003805
+b_TC    -0.09113   -0.024585     1.00000     0.93378    -0.79795   -0.511330
+g_TT    -0.07324   -0.047195     0.93378     1.00000    -0.69589   -0.534135
+g_WT     0.02299    0.037606    -0.79795    -0.69589     1.00000    0.303827
+g_IN     0.02073   -0.003805    -0.51133    -0.53413     0.30383    1.000000
+
+ 20 worst outliers in terms of lowest average per choice prediction:
+  ID Avg prob per choice
+ 272          0.08712088
+ 227          0.20228600
+ 263          0.20445759
+ 320          0.23344219
+ 547          0.23499664
+ 191          0.23989477
+ 270          0.24018174
+  12          0.24148332
+  85          0.24444700
+ 621          0.25162869
+ 255          0.25895009
+ 215          0.26133219
+ 688          0.26167917
+ 286          0.26381363
+ 440          0.26535787
+ 409          0.26566667
+  21          0.26586194
+ 622          0.26671602
+ 284          0.26682114
+ 273          0.26803075
+
+Changes in parameter estimates from starting values:
+         Initial    Estimate  Difference
+ascC     0.50000     0.49783   -0.002174
+ascA     0.20000     0.18310   -0.016899
+ascB     0.00000     0.00000    0.000000
+b_TC    -0.05000    -0.05651   -0.006508
+g_TC     1.00000     1.00000    0.000000
+g_TT     0.40000     0.40804    0.008041
+g_WT    -0.10000    -0.11474   -0.014735
+g_IN    -0.10000    -0.06866    0.031342
+
+Settings and functions used in model definition:
+
+apollo_control
+--------------
+                       Value                                                                              
+modelName              "A"                                                                                
+modelDescr             "MNL"                                                                              
+indivID                "ID"                                                                               
+nCores                 "7"                                                                                
+debug                  "FALSE"                                                                            
+workInLogs             "FALSE"                                                                            
+seed                   "13"                                                                               
+mixing                 "FALSE"                                                                            
+HB                     "FALSE"                                                                            
+noValidation           "FALSE"                                                                            
+noDiagnostics          "FALSE"                                                                            
+calculateLLC           "TRUE"                                                                             
+outputDirectory        "C:/Users/psingleton/Box/MS Thesis - Niranjan/Patrick_revised_work/Analysis/A_MNL/"
+panelData              "TRUE"                                                                             
+analyticGrad           "TRUE"                                                                             
+analyticGrad_manualSet "FALSE"                                                                            
+overridePanel          "FALSE"                                                                            
+preventOverridePanel   "FALSE"                                                                            
+noModification         "FALSE"                                                                            
+
+Hessian routines attempted
+--------------------------
+numerical jacobian of LL analytical gradient
+
+Scaling used in computing Hessian
+---------------------------------
+          Value
+ascC 0.49782624
+ascA 0.18310066
+b_TC 0.05650762
+g_TT 0.40804124
+g_WT 0.11473509
+g_IN 0.06865754
+
+
+apollo_probabilities
+----------------------
+function(apollo_beta, apollo_inputs, functionality="estimate") {
+  
+  # Attach inputs and detach after function exit
+  apollo_attach(apollo_beta, apollo_inputs)
+  on.exit(apollo_detach(apollo_beta, apollo_inputs))
+  
+  # Create list of probabilities P
+  P <- list()
+  
+  # List of utilities
+  V <- list()
+  V[["C"]] <- ascC + b_TC * (g_TT * TT_C + g_TC * TC_C + g_WT * WT_C + g_IN * IN_C)
+  V[["A"]] <- ascA + b_TC * (g_TT * TT_A + g_TC * TC_A + g_WT * WT_A + g_IN * IN_A)
+  V[["B"]] <- ascB + b_TC * (g_TT * TT_B + g_TC * TC_B + g_WT * WT_B + g_IN * IN_B)
+  
+  # Define settings for MNL model component
+  mnl_settings <- list(
+    alternatives = c(C = 1, A = 2, B = 3), 
+    avail        = list(C = 1, A = 1, B = 1), 
+    choiceVar    = choice,
+    V            = V
+  )
+  
+  # Compute probabilities using MNL model
+  P[["model"]] <- apollo_mnl(mnl_settings, functionality)
+  
+  # Take product across observation for same individual
+  P <- apollo_panelProd(P, apollo_inputs, functionality)
+  
+  # Prepare outputs of function
+  P <- apollo_prepareProb(P, apollo_inputs, functionality)
+  
+  # Return
+  return(P)
+   
+}
