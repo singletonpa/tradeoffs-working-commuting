@@ -1,7 +1,7 @@
 ########################################
-# Project:  Niranjan Poudel MS Thesis
+# Project:  Understanding tradeoffs between working and commuting
 # Authors:  Patrick Singleton (patrick.singleton@usu.edu)
-#           Niranjan Poudel
+#           Niranjan Poudel (niranjan111@hotmail.com)
 # File:     get_results.R
 # Date:     2023 Summer
 # About:    Get results of analysis
@@ -26,9 +26,12 @@ library(readr)
 # Model B MMNL
 
 # Load conditionals
-# note: files were saved wrong (using save() instead of saveRDS()), so need to use load() instead of read.rds()
-# cond <- read.rds(file.path("Analysis", "B_MMNL", "B_conditionals.rds"))
-# uncond <- read.rds(file.path("Analysis", "B_MMNL", "B_unconditionals.rds"))
+# note: files were saved wrong (using save() instead of saveRDS()), 
+#       so need to use load() instead of read.rds()
+# cond <- read.rds(file.path("Analysis", "B_MMNL", 
+#                            "B_conditionals.rds"))
+# uncond <- read.rds(file.path("Analysis", "B_MMNL", 
+#                              "B_unconditionals.rds"))
 load(file.path("Analysis", "B_MMNL", "B_conditionals.rds"))
 load(file.path("Analysis", "B_MMNL", "B_unconditionals.rds"))
 cond <- conditionals; rm(conditionals)
@@ -89,8 +92,8 @@ plot(0, las=1, type="n", xlim=c(0,100), ylim=c(0,1),
 lines(c(0,0), c(-1,2))
 lines(ecdf(wtpWT*60), col="orange", lwd=5, lty="solid", do.points=F)
 lines(ecdf(wtpTT*60), col="blue", lwd=3, lty="solid", do.points=F)
-legend("bottomright", legend=c("WTP for work time", "WTP for travel time"), bty="n", 
-       col=c("orange", "blue"), lwd=c(5,3), lty=c("solid", "solid"))
+legend("bottomright", legend=c("WTP for work time", "WTP for travel time"), 
+       bty="n", col=c("orange", "blue"), lwd=c(5,3), lty=c("solid", "solid"))
 # log-scale x-axis figure
 plot(0, las=1, type="n", xlim=c(0.1,200), ylim=c(0,1), log="x", 
      main="Cumulative distributions of conditional means (Model B1)", 
@@ -98,8 +101,8 @@ plot(0, las=1, type="n", xlim=c(0.1,200), ylim=c(0,1), log="x",
      ylab="Cumulative probability")
 lines(ecdf(wtpWT*60), col="orange", lwd=5, lty="solid", do.points=F)
 lines(ecdf(wtpTT*60), col="blue", lwd=3, lty="solid", do.points=F)
-legend("bottomright", legend=c("WTP for work time", "WTP for travel time"), bty="n", 
-       col=c("orange", "blue"), lwd=c(5,3), lty=c("solid", "solid"))
+legend("bottomright", legend=c("WTP for work time", "WTP for travel time"), 
+       bty="n", col=c("orange", "blue"), lwd=c(5,3), lty=c("solid", "solid"))
 
 # Figure: Scatterplot of conditional means
 # regular figure
@@ -132,9 +135,12 @@ gc()
 # Model C MMNL preference heterogeneity
 
 # Load conditionals
-# note: files were saved wrong (using save() instead of saveRDS()), so need to use load() instead of read.rds()
-# cond <- read.rds(file.path("Analysis", "C_MMNL_het", "C_conditionals.rds"))
-# uncond <- read.rds(file.path("Analysis", "C_MMNL_het", "C_unconditionals.rds"))
+# note: files were saved wrong (using save() instead of saveRDS()), 
+#       so need to use load() instead of read.rds()
+# cond <- read.rds(file.path("Analysis", "C_MMNL_het", 
+#                            "C_conditionals.rds"))
+# uncond <- read.rds(file.path("Analysis", "C_MMNL_het", 
+#                              "C_unconditionals.rds"))
 load(file.path("Analysis", "C_MMNL_het", "C_conditionals.rds"))
 load(file.path("Analysis", "C_MMNL_het", "C_unconditionals.rds"))
 cond <- conditionals; rm(conditionals)
@@ -195,8 +201,8 @@ plot(0, las=1, type="n", xlim=c(0,100), ylim=c(0,1),
 lines(c(0,0), c(-1,2))
 lines(ecdf(wtpWT*60), col="orange", lwd=5, lty="solid", do.points=F)
 lines(ecdf(wtpTT*60), col="blue", lwd=3, lty="solid", do.points=F)
-legend("bottomright", legend=c("WTP for work time", "WTP for travel time"), bty="n", 
-       col=c("orange", "blue"), lwd=c(5,3), lty=c("solid", "solid"))
+legend("bottomright", legend=c("WTP for work time", "WTP for travel time"), 
+       bty="n", col=c("orange", "blue"), lwd=c(5,3), lty=c("solid", "solid"))
 # log-scale x-axis figure
 plot(0, las=1, type="n", xlim=c(0.1,200), ylim=c(0,1), log="x", 
      main="Cumulative distributions of conditional means (Model C1)", 
@@ -204,8 +210,8 @@ plot(0, las=1, type="n", xlim=c(0.1,200), ylim=c(0,1), log="x",
      ylab="Cumulative probability")
 lines(ecdf(wtpWT*60), col="orange", lwd=5, lty="solid", do.points=F)
 lines(ecdf(wtpTT*60), col="blue", lwd=3, lty="solid", do.points=F)
-legend("bottomright", legend=c("WTP for work time", "WTP for travel time"), bty="n", 
-       col=c("orange", "blue"), lwd=c(5,3), lty=c("solid", "solid"))
+legend("bottomright", legend=c("WTP for work time", "WTP for travel time"), 
+       bty="n", col=c("orange", "blue"), lwd=c(5,3), lty=c("solid", "solid"))
 
 # Figure: Scatterplot of conditional means
 # regular figure
@@ -251,7 +257,8 @@ lines(ecdf(wtpTTC*60), col="black", lwd=2, lty="solid", do.points=F)
 legend("bottomright", bty="n", 
        legend=c("WTP for work time, Model B", "WTP for work time, Model C", 
                 "WTP for travel time, Model B", "WTP for travel time, Model C"), 
-       col=c("orange", "black", "blue", "black"), lwd=c(5,2,5,2), lty=c("solid", "solid", "solid", "solid"))
+       col=c("orange", "black", "blue", "black"), lwd=c(5,2,5,2), 
+       lty=c("solid", "solid", "solid", "solid"))
 # save as image: Fig2a.png, 800x600
 # log-scale x-axis figure
 plot(0, las=1, type="n", xlim=c(0.1,200), ylim=c(0,1), log="x", 
@@ -265,7 +272,8 @@ lines(ecdf(wtpTTC*60), col="black", lwd=2, lty="solid", do.points=F)
 legend("bottomright", bty="n", 
        legend=c("WTP for work time, Model B", "WTP for work time, Model C", 
                 "WTP for travel time, Model B", "WTP for travel time, Model C"), 
-       col=c("orange", "black", "blue", "black"), lwd=c(5,2,5,2), lty=c("solid", "solid", "solid", "solid"))
+       col=c("orange", "black", "blue", "black"), lwd=c(5,2,5,2), 
+       lty=c("solid", "solid", "solid", "solid"))
 # save as image: Fig2b.png, 800x600
 
 # Comparisons for paper
@@ -282,9 +290,12 @@ gc()
 # Model B MMNL - WTP Calculations
 
 # Load conditionals
-# note: files were saved wrong (using save() instead of saveRDS()), so need to use load() instead of read.rds()
-# cond <- read.rds(file.path("Analysis", "B_MMNL", "B_conditionals.rds"))
-# uncond <- read.rds(file.path("Analysis", "B_MMNL", "B_unconditionals.rds"))
+# note: files were saved wrong (using save() instead of saveRDS()), 
+#       so need to use load() instead of read.rds()
+# cond <- read.rds(file.path("Analysis", "B_MMNL", 
+#                            "B_conditionals.rds"))
+# uncond <- read.rds(file.path("Analysis", "B_MMNL", 
+#                              "B_unconditionals.rds"))
 load(file.path("Analysis", "B_MMNL", "B_conditionals.rds"))
 load(file.path("Analysis", "B_MMNL", "B_unconditionals.rds"))
 cond <- conditionals; rm(conditionals)
@@ -334,9 +345,12 @@ rm(cond, uncond)
 # Model C MMNL preference heterogeneity - WTP Calculations
 
 # Load conditionals
-# note: files were saved wrong (using save() instead of saveRDS()), so need to use load() instead of read.rds()
-# cond <- read.rds(file.path("Analysis", "C_MMNL_het", "C_conditionals.rds"))
-# uncond <- read.rds(file.path("Analysis", "C_MMNL_het", "C_unconditionals.rds"))
+# note: files were saved wrong (using save() instead of saveRDS()), 
+#       so need to use load() instead of read.rds()
+# cond <- read.rds(file.path("Analysis", "C_MMNL_het", 
+#                            "C_conditionals.rds"))
+# uncond <- read.rds(file.path("Analysis", "C_MMNL_het", 
+#                              "C_unconditionals.rds"))
 load(file.path("Analysis", "C_MMNL_het", "C_conditionals.rds"))
 load(file.path("Analysis", "C_MMNL_het", "C_unconditionals.rds"))
 cond <- conditionals; rm(conditionals)
