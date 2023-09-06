@@ -1,6 +1,7 @@
 ########################################
-# Project:  Niranjan Poudel MS Thesis
+# Project:  Understanding tradeoffs between working and commuting
 # Authors:  Patrick Singleton (patrick.singleton@usu.edu)
+#           Niranjan Poudel (niranjan111@hotmail.com)
 # File:     C_MMNL_het.R
 # Date:     2023 Summer
 # About:    Estimates MMNL Model C
@@ -43,8 +44,8 @@ dl <- readRDS(file.path("..", "..", "Data", "4_Final", "DataLong.rds"))
 database <- dl
 
 # Construct AT
-database$MODE_Active <- ifelse(database$MODE_Walk==1 |
-                                 database$MODE_Bike==1, 1, 0)
+database$MODE_Active <- ifelse(database$MODE_Walk==1 | database$MODE_Bike==1, 
+                               1, 0)
 
 ########################################
 # Parameter definition
@@ -118,23 +119,25 @@ apollo_randCoeff <- function(apollo_beta, apollo_inputs) {
   randcoeff[["ascA"]] =      m_ascA + s_ascA * draws_ascA
   randcoeff[["b_TC"]] = -exp(m_b_TC + s_b_TC * draws_b_TC)
   randcoeff[["g_TT"]] =  exp(m_g_TT + s_g_TT * draws_g_TT + 
-                               bt_age_60up*AGE2_60_UP +
-                               bt_race_oth*RACE_Other + 
-                               bt_hh_child*HHKIDS + 
-                               bt_inc_0050*HHINC_000_050 +
-                               bt_inc_100p*HHINC_100__UP + 
-                               bt_pt_subsu*PLACETYPE_Suburban +
-                               bt_pt_rural*PLACETYPE_Rural_all + 
-                               bt_cmode_at*MODE_Active + 
-                               bt_sat_work*SAT_WORK + bt_sat_comm*SAT_COMM + bt_TTPD*TTPD)
+                             bt_age_60up*AGE2_60_UP +
+                             bt_race_oth*RACE_Other + 
+                             bt_hh_child*HHKIDS + 
+                             bt_inc_0050*HHINC_000_050 +
+                             bt_inc_100p*HHINC_100__UP + 
+                             bt_pt_subsu*PLACETYPE_Suburban +
+                             bt_pt_rural*PLACETYPE_Rural_all + 
+                             bt_cmode_at*MODE_Active + 
+                             bt_sat_work*SAT_WORK + 
+                             bt_sat_comm*SAT_COMM + 
+                             bt_TTPD*TTPD)
   randcoeff[["g_WT"]] =  exp(m_g_WT + s_g_WT * draws_g_WT +
-                               s_TTWT * draws_g_TT + 
-                               bw_age_60up*AGE2_60_UP +
-                               bw_race_oth*RACE_Other + 
-                               bw_pt_subur*PLACETYPE_Sub_Urban + 
-                               bw_pt_rural*PLACETYPE_Rural_all + 
-                               bw_cmode_at*MODE_Active + 
-                               bw_sat_comm*SAT_COMM)
+                             s_TTWT * draws_g_TT + 
+                             bw_age_60up*AGE2_60_UP +
+                             bw_race_oth*RACE_Other + 
+                             bw_pt_subur*PLACETYPE_Sub_Urban + 
+                             bw_pt_rural*PLACETYPE_Rural_all + 
+                             bw_cmode_at*MODE_Active + 
+                             bw_sat_comm*SAT_COMM)
   randcoeff[["g_IN"]] = -exp(m_g_IN + s_g_IN * draws_g_IN) 
   
   return(randcoeff)
@@ -165,11 +168,11 @@ apollo_probabilities <- function(apollo_beta, apollo_inputs,
   # List of utilities
   V <- list()
   V[["C"]] <- ascC + b_TC * (g_TT * TT_C + g_TC * TC_C +
-                               g_WT * WT_C + g_IN * IN_C)
+                             g_WT * WT_C + g_IN * IN_C)
   V[["A"]] <- ascA + b_TC * (g_TT * TT_A + g_TC * TC_A +
-                               g_WT * WT_A + g_IN * IN_A)
+                             g_WT * WT_A + g_IN * IN_A)
   V[["B"]] <- ascB + b_TC * (g_TT * TT_B + g_TC * TC_B +
-                               g_WT * WT_B + g_IN * IN_B)
+                             g_WT * WT_B + g_IN * IN_B)
   
   # Define settings for MNL model component
   mnl_settings <- list(
@@ -202,12 +205,7 @@ apollo_probabilities <- function(apollo_beta, apollo_inputs,
 # Estimate model
 model <- apollo_estimate(
   apollo_beta, apollo_fixed, apollo_probabilities, apollo_inputs, 
-  estimate_settings=list(
-    # hessianRoutine="maxLik", 
-    # scaling = c(
-    #   m_g_WT = 10,  s_g_WT = 10, 
-    #   m_g_IN = 100, s_g_IN = 100), 
-    writeIter=F)
+  estimate_settings=list(writeIter=F)
 )
 
 # Print results
@@ -234,9 +232,10 @@ apollo_deltaMethod(model, deltaMethod_settings=list(
 ))
 
 # Calculate conditionals and unconditionals
-conditionals <- apollo_conditionals(model, apollo_probabilities, apollo_inputs)
-unconditionals <- apollo_unconditionals(model,
-                                        apollo_probabilities, apollo_inputs)
+conditionals <- apollo_conditionals(
+  model, apollo_probabilities, apollo_inputs)
+unconditionals <- apollo_unconditionals(
+  model, apollo_probabilities, apollo_inputs)
 
 # Save
 save(conditionals, file = "C_conditionals.rds")
