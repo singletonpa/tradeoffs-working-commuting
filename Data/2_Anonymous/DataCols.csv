@@ -1,0 +1,2443 @@
+"Name","Name1","Name2","Name3"
+"StartDate","StartDate","Start Date","{""ImportId"":""startDate"",""timeZone"":""America/Denver""}"
+"EndDate","EndDate","End Date","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}"
+"Status","Status","Response Type","{""ImportId"":""status""}"
+"IPAddress","IPAddress","IP Address","{""ImportId"":""ipAddress""}"
+"Progress","Progress","Progress","{""ImportId"":""progress""}"
+"Duration (in seconds)","Duration (in seconds)","Duration (in seconds)","{""ImportId"":""duration""}"
+"Finished","Finished","Finished","{""ImportId"":""finished""}"
+"RecordedDate","RecordedDate","Recorded Date","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}"
+"ResponseId","ResponseId","Response ID","{""ImportId"":""_recordId""}"
+"RecipientLastName","RecipientLastName","Recipient Last Name","{""ImportId"":""recipientLastName""}"
+"RecipientFirstName","RecipientFirstName","Recipient First Name","{""ImportId"":""recipientFirstName""}"
+"RecipientEmail","RecipientEmail","Recipient Email","{""ImportId"":""recipientEmail""}"
+"ExternalReference","ExternalReference","External Data Reference","{""ImportId"":""externalDataReference""}"
+"LocationLatitude","LocationLatitude","Location Latitude","{""ImportId"":""locationLatitude""}"
+"LocationLongitude","LocationLongitude","Location Longitude","{""ImportId"":""locationLongitude""}"
+"DistributionChannel","DistributionChannel","Distribution Channel","{""ImportId"":""distributionChannel""}"
+"UserLanguage","UserLanguage","User Language","{""ImportId"":""userLanguage""}"
+"Q1.2","Q1.2","Please select ""Accept"" if you have read the letter of information and agree to participate in this study.","{""ImportId"":""QID205""}"
+"Q1.4","Q1.4","What is your age?","{""ImportId"":""QID73_TEXT""}"
+"Q1.5","Q1.5","Where do you live in?","{""ImportId"":""QID75""}"
+"Q1.6","Q1.6","Are you currently commuting to work on a regular basis? If not, were you commuting to work regularly before the coronavirus pandemic?","{""ImportId"":""QID76""}"
+"Q2.1","Q2.1","What [Field-Dis2] your approximate total yearly household income?","{""ImportId"":""QID176""}"
+"Q2.2","Q2.2","How do you describe yourself? - Selected Choice","{""ImportId"":""QID194""}"
+"Q2.2_3_TEXT","Q2.2_3_TEXT","How do you describe yourself? - Prefer to self-describe: - Text","{""ImportId"":""QID194_3_TEXT""}"
+"Q4.1_First Click","Q4.1_First Click","Timing - First Click","{""ImportId"":""QID82_FIRST_CLICK""}"
+"Q4.1_Last Click","Q4.1_Last Click","Timing - Last Click","{""ImportId"":""QID82_LAST_CLICK""}"
+"Q4.1_Page Submit","Q4.1_Page Submit","Timing - Page Submit","{""ImportId"":""QID82_PAGE_SUBMIT""}"
+"Q4.1_Click Count","Q4.1_Click Count","Timing - Click Count","{""ImportId"":""QID82_CLICK_COUNT""}"
+"Q5.1_1","Q5.1_1","On an average work day (job), how much time [Field-Dis1] you spend working? - Hours","{""ImportId"":""QID83_1""}"
+"Q5.1_2","Q5.1_2","On an average work day (job), how much time [Field-Dis1] you spend working? - Minutes","{""ImportId"":""QID83_2""}"
+"Q5.2_1","Q5.2_1","In average work week, how many days [Field-Dis1] you work (job)? - Number of days (0-7)","{""ImportId"":""QID9_1""}"
+"Q5.3_1","Q5.3_1","In average work week, how many days [Field-Dis1] you commute to work? - Number of days (0-7)","{""ImportId"":""QID217_1""}"
+"Q5.4","Q5.4","What [Field-Dis2] your personal income, on average? You can answer in (one of) dollars per day, dollars per week, or dollars per month (Please do not use comma in your entry). - Selected Choice","{""ImportId"":""QID90""}"
+"Q5.4_1_TEXT","Q5.4_1_TEXT","What [Field-Dis2] your personal income, on average? You can answer in (one of) dollars per day, dollars per week, or dollars per month (Please do not use comma in your entry). - Income in dollars per day - Text","{""ImportId"":""QID90_1_TEXT""}"
+"Q5.4_2_TEXT","Q5.4_2_TEXT","What [Field-Dis2] your personal income, on average? You can answer in (one of) dollars per day, dollars per week, or dollars per month (Please do not use comma in your entry). - Income in dollars per week - Text","{""ImportId"":""QID90_2_TEXT""}"
+"Q5.4_3_TEXT","Q5.4_3_TEXT","What [Field-Dis2] your personal income, on average? You can answer in (one of) dollars per day, dollars per week, or dollars per month (Please do not use comma in your entry). - Income in dollars per month - Text","{""ImportId"":""QID90_3_TEXT""}"
+"Q5.5_1","Q5.5_1","On average, how long [Field-Dis3] it take for you to travel from home to work (one-way)? - Minutes","{""ImportId"":""QID13_1""}"
+"Q5.6_1","Q5.6_1","On average, how long [Field-Dis3] it take for you to travel from work to home (one-way)? - Minutes","{""ImportId"":""QID14_1""}"
+"Q6.2","Q6.2","What primary transportation mode [Field-Dis1] you usually use to travel to work? If you usually [Field-Dis5] more than one mode, select the one you [Field-Dis5] most often. - Selected Choice","{""ImportId"":""QID17""}"
+"Q6.2_6_TEXT","Q6.2_6_TEXT","What primary transportation mode [Field-Dis1] you usually use to travel to work? If you usually [Field-Dis5] more than one mode, select the one you [Field-Dis5] most often. - Other (please describe) - Text","{""ImportId"":""QID17_6_TEXT""}"
+"Q6.3","Q6.3","[Field-Dis7] you have any fuel cost (do not include fare or fees other than fuel)  for your commute?","{""ImportId"":""QID236""}"
+"Q6.4","Q6.4","For your selected mode, how much [Field-Dis2] your average fuel cost to work (round-trip)? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Selected Choice","{""ImportId"":""QID88""}"
+"Q6.4_1_TEXT","Q6.4_1_TEXT","For your selected mode, how much [Field-Dis2] your average fuel cost to work (round-trip)? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Cost in dollars per day - Text","{""ImportId"":""QID88_1_TEXT""}"
+"Q6.4_2_TEXT","Q6.4_2_TEXT","For your selected mode, how much [Field-Dis2] your average fuel cost to work (round-trip)? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Cost in dollars per week - Text","{""ImportId"":""QID88_2_TEXT""}"
+"Q6.4_3_TEXT","Q6.4_3_TEXT","For your selected mode, how much [Field-Dis2] your average fuel cost to work (round-trip)? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Cost in dollars per month - Text","{""ImportId"":""QID88_3_TEXT""}"
+"Q6.5_1","Q6.5_1","You have mentioned you are not sure about your average fuel cost. We will help you calculate it. Please input the average cost of a gallon of gas, the distance you [Field-Dis6] to work, and your vehicle's fuel efficiency. - You have mentioned you are not sure about your average fuel cost. We will help you calculate it. Please input the average cost of a gallon of gas, the distance you ${e://Field/Dis6} to work, and your vehicle's fuel efficiency.","{""ImportId"":""QID92_1""}"
+"Q6.5_2","Q6.5_2","You have mentioned you are not sure about your average fuel cost. We will help you calculate it. Please input the average cost of a gallon of gas, the distance you [Field-Dis6] to work, and your vehicle's fuel efficiency. - You have mentioned you are not sure about your average fuel cost. We will help you calculate it. Please input the average cost of a gallon of gas, the distance you ${e://Field/Dis6} to work, and your vehicle's fuel efficiency.","{""ImportId"":""QID92_2""}"
+"Q6.5_3","Q6.5_3","You have mentioned you are not sure about your average fuel cost. We will help you calculate it. Please input the average cost of a gallon of gas, the distance you [Field-Dis6] to work, and your vehicle's fuel efficiency. - You have mentioned you are not sure about your average fuel cost. We will help you calculate it. Please input the average cost of a gallon of gas, the distance you ${e://Field/Dis6} to work, and your vehicle's fuel efficiency.","{""ImportId"":""QID92_3""}"
+"Q6.6","Q6.6","[Field-Dis7] you have any parking cost for your commute? Do not count parking costs for activities other than when you are at your work.","{""ImportId"":""QID237""}"
+"Q6.7","Q6.7","How much [Field-Dis2] your parking cost while at work? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Selected Choice","{""ImportId"":""QID98""}"
+"Q6.7_1_TEXT","Q6.7_1_TEXT","How much [Field-Dis2] your parking cost while at work? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Cost in dollars per day - Text","{""ImportId"":""QID98_1_TEXT""}"
+"Q6.7_2_TEXT","Q6.7_2_TEXT","How much [Field-Dis2] your parking cost while at work? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Cost in dollars per week - Text","{""ImportId"":""QID98_2_TEXT""}"
+"Q6.7_3_TEXT","Q6.7_3_TEXT","How much [Field-Dis2] your parking cost while at work? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Cost in dollars per month - Text","{""ImportId"":""QID98_3_TEXT""}"
+"Q6.8","Q6.8","[Field-Dis7] you have any fare or fee for your commute? This could be a transit fare, Uber fare, bike-share fee, etc. The cost should be related to the primary transportation mode you selected previously.","{""ImportId"":""QID238""}"
+"Q6.9","Q6.9","For your selected mode, how much [Field-Dis2] your average fare or fee  to work (round-trip)? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Selected Choice","{""ImportId"":""QID94""}"
+"Q6.9_1_TEXT","Q6.9_1_TEXT","For your selected mode, how much [Field-Dis2] your average fare or fee  to work (round-trip)? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Cost in dollars per day - Text","{""ImportId"":""QID94_1_TEXT""}"
+"Q6.9_2_TEXT","Q6.9_2_TEXT","For your selected mode, how much [Field-Dis2] your average fare or fee  to work (round-trip)? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Cost in dollars per week - Text","{""ImportId"":""QID94_2_TEXT""}"
+"Q6.9_3_TEXT","Q6.9_3_TEXT","For your selected mode, how much [Field-Dis2] your average fare or fee  to work (round-trip)? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Cost in dollars per month - Text","{""ImportId"":""QID94_3_TEXT""}"
+"Q6.10","Q6.10","[Field-Dis7] you pay any tolls while traveling to and from work?","{""ImportId"":""QID239""}"
+"Q6.11","Q6.11","How much [Field-Dis2] your average toll price to work (round-trip)? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Selected Choice","{""ImportId"":""QID95""}"
+"Q6.11_1_TEXT","Q6.11_1_TEXT","How much [Field-Dis2] your average toll price to work (round-trip)? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Cost in dollars per day - Text","{""ImportId"":""QID95_1_TEXT""}"
+"Q6.11_2_TEXT","Q6.11_2_TEXT","How much [Field-Dis2] your average toll price to work (round-trip)? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Cost in dollars per week - Text","{""ImportId"":""QID95_2_TEXT""}"
+"Q6.11_3_TEXT","Q6.11_3_TEXT","How much [Field-Dis2] your average toll price to work (round-trip)? You can answer in (one of) dollars per day, dollars per week, or dollars per month. - Cost in dollars per month - Text","{""ImportId"":""QID95_3_TEXT""}"
+"Q9.1_First Click","Q9.1_First Click","Timing - First Click","{""ImportId"":""QID247_FIRST_CLICK""}"
+"Q9.1_Last Click","Q9.1_Last Click","Timing - Last Click","{""ImportId"":""QID247_LAST_CLICK""}"
+"Q9.1_Page Submit","Q9.1_Page Submit","Timing - Page Submit","{""ImportId"":""QID247_PAGE_SUBMIT""}"
+"Q9.1_Click Count","Q9.1_Click Count","Timing - Click Count","{""ImportId"":""QID247_CLICK_COUNT""}"
+"Q9.2","Q9.2","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+   [Field-MD12TT3] min
+    [Field-MD12TT5] min
+   [Field-MD12TT3] min
+  
+  
+   Travel cost (round-trip)
+   $ [Field-M15TC3]
+   $ [Field-M15TC4]
+   $ [Field-M15TC3]
+  
+  
+   Work time per day
+    [Field-MD12WH3] hr, 
+
+   [Field-MD12WM3] min
+   [Field-MD12WH5] hr, 
+
+   [Field-MD12WM5] min
+   [Field-MD12WH1] hr
+
+   , [Field-MD12WM1] min
+  
+  
+   Income per day
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC4]
+   $ [Field-MD12INC1]","{""ImportId"":""QID110""}"
+"Q9.3_First Click","Q9.3_First Click","Timing - First Click","{""ImportId"":""QID248_FIRST_CLICK""}"
+"Q9.3_Last Click","Q9.3_Last Click","Timing - Last Click","{""ImportId"":""QID248_LAST_CLICK""}"
+"Q9.3_Page Submit","Q9.3_Page Submit","Timing - Page Submit","{""ImportId"":""QID248_PAGE_SUBMIT""}"
+"Q9.3_Click Count","Q9.3_Click Count","Timing - Click Count","{""ImportId"":""QID248_CLICK_COUNT""}"
+"Q9.4","Q9.4","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+   [Field-MD12TT3] min
+    [Field-MD12TT4] min
+   [Field-MD12TT4] min
+  
+  
+   Travel cost (round-trip)
+   $ [Field-M15TC3]
+   $ [Field-M15TC1]
+   $ [Field-M15TC4]
+  
+  
+   Work time per day 
+
+        
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH5] hr,
+
+   [Field-MD12WM5] min
+   [Field-MD12WH1] hr,
+
+   [Field-MD12WM1] min
+  
+  
+   Income per day
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC5]
+   $ [Field-MD12INC4]","{""ImportId"":""QID111""}"
+"Q9.5_First Click","Q9.5_First Click","Timing - First Click","{""ImportId"":""QID249_FIRST_CLICK""}"
+"Q9.5_Last Click","Q9.5_Last Click","Timing - Last Click","{""ImportId"":""QID249_LAST_CLICK""}"
+"Q9.5_Page Submit","Q9.5_Page Submit","Timing - Page Submit","{""ImportId"":""QID249_PAGE_SUBMIT""}"
+"Q9.5_Click Count","Q9.5_Click Count","Timing - Click Count","{""ImportId"":""QID249_CLICK_COUNT""}"
+"Q9.6","Q9.6","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT2] min
+   [Field-MD12TT2] min
+  
+ 
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC2]
+   $ [Field-M15TC4]
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH1] hr,
+
+   [Field-MD12WM1] min
+   [Field-MD12WH5] hr,
+
+   [Field-MD12WM5] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC1]
+   $ [Field-MD12INC3]","{""ImportId"":""QID112""}"
+"Q9.7_First Click","Q9.7_First Click","Timing - First Click","{""ImportId"":""QID250_FIRST_CLICK""}"
+"Q9.7_Last Click","Q9.7_Last Click","Timing - Last Click","{""ImportId"":""QID250_LAST_CLICK""}"
+"Q9.7_Page Submit","Q9.7_Page Submit","Timing - Page Submit","{""ImportId"":""QID250_PAGE_SUBMIT""}"
+"Q9.7_Click Count","Q9.7_Click Count","Timing - Click Count","{""ImportId"":""QID250_CLICK_COUNT""}"
+"Q9.8","Q9.8","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT1] min
+   [Field-MD12TT4] min
+  
+ 
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC4]
+   $ [Field-M15TC2]
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH4] hr,
+
+   [Field-MD12WM4] min
+   [Field-MD12WH1] hr,
+
+   [Field-MD12WM1] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC2]
+   $ [Field-MD12INC2]","{""ImportId"":""QID113""}"
+"Q9.9_First Click","Q9.9_First Click","Timing - First Click","{""ImportId"":""QID251_FIRST_CLICK""}"
+"Q9.9_Last Click","Q9.9_Last Click","Timing - Last Click","{""ImportId"":""QID251_LAST_CLICK""}"
+"Q9.9_Page Submit","Q9.9_Page Submit","Timing - Page Submit","{""ImportId"":""QID251_PAGE_SUBMIT""}"
+"Q9.9_Click Count","Q9.9_Click Count","Timing - Click Count","{""ImportId"":""QID251_CLICK_COUNT""}"
+"Q9.10","Q9.10","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT4] min
+   [Field-MD12TT1] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC5]
+   $ [Field-M15TC1]
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH2] hr,
+
+   [Field-MD12WM2] min
+   [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC2]","{""ImportId"":""QID114""}"
+"Q9.11_First Click","Q9.11_First Click","Timing - First Click","{""ImportId"":""QID252_FIRST_CLICK""}"
+"Q9.11_Last Click","Q9.11_Last Click","Timing - Last Click","{""ImportId"":""QID252_LAST_CLICK""}"
+"Q9.11_Page Submit","Q9.11_Page Submit","Timing - Page Submit","{""ImportId"":""QID252_PAGE_SUBMIT""}"
+"Q9.11_Click Count","Q9.11_Click Count","Timing - Click Count","{""ImportId"":""QID252_CLICK_COUNT""}"
+"Q9.12","Q9.12","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT2] min
+   [Field-MD12TT5] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC3]
+   $ [Field-M15TC4]
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH5] hr,
+
+   [Field-MD12WM5] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC1]
+   $ [Field-MD12INC4]","{""ImportId"":""QID115""}"
+"Q9.13_First Click","Q9.13_First Click","Timing - First Click","{""ImportId"":""QID253_FIRST_CLICK""}"
+"Q9.13_Last Click","Q9.13_Last Click","Timing - Last Click","{""ImportId"":""QID253_LAST_CLICK""}"
+"Q9.13_Page Submit","Q9.13_Page Submit","Timing - Page Submit","{""ImportId"":""QID253_PAGE_SUBMIT""}"
+"Q9.13_Click Count","Q9.13_Click Count","Timing - Click Count","{""ImportId"":""QID253_CLICK_COUNT""}"
+"Q9.14","Q9.14","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT4] min
+   [Field-MD12TT1] min
+  
+ 
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC1]
+   $ [Field-M15TC5]
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH4] hr,
+
+   [Field-MD12WM4] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC5]
+   $ [Field-MD12INC5]","{""ImportId"":""QID116""}"
+"Q9.15_First Click","Q9.15_First Click","Timing - First Click","{""ImportId"":""QID254_FIRST_CLICK""}"
+"Q9.15_Last Click","Q9.15_Last Click","Timing - Last Click","{""ImportId"":""QID254_LAST_CLICK""}"
+"Q9.15_Page Submit","Q9.15_Page Submit","Timing - Page Submit","{""ImportId"":""QID254_PAGE_SUBMIT""}"
+"Q9.15_Click Count","Q9.15_Click Count","Timing - Click Count","{""ImportId"":""QID254_CLICK_COUNT""}"
+"Q9.16","Q9.16","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT1] min
+   [Field-MD12TT5] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC3]
+   $ [Field-M15TC2]
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH1] hr,
+
+   [Field-MD12WM1] min
+   [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC2]
+   $ [Field-MD12INC4]","{""ImportId"":""QID117""}"
+"Q9.17_First Click","Q9.17_First Click","Timing - First Click","{""ImportId"":""QID255_FIRST_CLICK""}"
+"Q9.17_Last Click","Q9.17_Last Click","Timing - Last Click","{""ImportId"":""QID255_LAST_CLICK""}"
+"Q9.17_Page Submit","Q9.17_Page Submit","Timing - Page Submit","{""ImportId"":""QID255_PAGE_SUBMIT""}"
+"Q9.17_Click Count","Q9.17_Click Count","Timing - Click Count","{""ImportId"":""QID255_CLICK_COUNT""}"
+"Q9.18","Q9.18","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT3] min
+   [Field-MD12TT2] min
+  
+ 
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC5]
+   $ [Field-M15TC1]
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH2] hr,
+
+   [Field-MD12WM2] min
+   [Field-MD12WH4] hr,
+
+   [Field-MD12WM4] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC4]
+   $ [Field-MD12INC3]","{""ImportId"":""QID120""}"
+"Q9.19_First Click","Q9.19_First Click","Timing - First Click","{""ImportId"":""QID256_FIRST_CLICK""}"
+"Q9.19_Last Click","Q9.19_Last Click","Timing - Last Click","{""ImportId"":""QID256_LAST_CLICK""}"
+"Q9.19_Page Submit","Q9.19_Page Submit","Timing - Page Submit","{""ImportId"":""QID256_PAGE_SUBMIT""}"
+"Q9.19_Click Count","Q9.19_Click Count","Timing - Click Count","{""ImportId"":""QID256_CLICK_COUNT""}"
+"Q9.20","Q9.20","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT3] min
+   [Field-MD12TT4] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC1]
+   $ [Field-M15TC5]
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH5] hr,
+
+   [Field-MD12WM5] min
+   [Field-MD12WH2] hr,
+
+   [Field-MD12WM2] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC5]
+   $ [Field-MD12INC5]","{""ImportId"":""QID118""}"
+"Q10.1_First Click","Q10.1_First Click","Timing - First Click","{""ImportId"":""QID257_FIRST_CLICK""}"
+"Q10.1_Last Click","Q10.1_Last Click","Timing - Last Click","{""ImportId"":""QID257_LAST_CLICK""}"
+"Q10.1_Page Submit","Q10.1_Page Submit","Timing - Page Submit","{""ImportId"":""QID257_PAGE_SUBMIT""}"
+"Q10.1_Click Count","Q10.1_Click Count","Timing - Click Count","{""ImportId"":""QID257_CLICK_COUNT""}"
+"Q10.2","Q10.2","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT5] min
+   [Field-MD12TT3] min
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH5] hr,
+
+   [Field-MD12WM5] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC4]
+   $ [Field-MD12INC5]","{""ImportId"":""QID121""}"
+"Q10.3_First Click","Q10.3_First Click","Timing - First Click","{""ImportId"":""QID258_FIRST_CLICK""}"
+"Q10.3_Last Click","Q10.3_Last Click","Timing - Last Click","{""ImportId"":""QID258_LAST_CLICK""}"
+"Q10.3_Page Submit","Q10.3_Page Submit","Timing - Page Submit","{""ImportId"":""QID258_PAGE_SUBMIT""}"
+"Q10.3_Click Count","Q10.3_Click Count","Timing - Click Count","{""ImportId"":""QID258_CLICK_COUNT""}"
+"Q10.4","Q10.4","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT2] min
+   [Field-MD12TT2] min
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH5] hr,
+
+   [Field-MD12WM5] min
+   [Field-MD12WH1] hr,
+
+   [Field-MD12WM1] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC2]","{""ImportId"":""QID122""}"
+"Q10.5_First Click","Q10.5_First Click","Timing - First Click","{""ImportId"":""QID259_FIRST_CLICK""}"
+"Q10.5_Last Click","Q10.5_Last Click","Timing - Last Click","{""ImportId"":""QID259_LAST_CLICK""}"
+"Q10.5_Page Submit","Q10.5_Page Submit","Timing - Page Submit","{""ImportId"":""QID259_PAGE_SUBMIT""}"
+"Q10.5_Click Count","Q10.5_Click Count","Timing - Click Count","{""ImportId"":""QID259_CLICK_COUNT""}"
+"Q10.6","Q10.6","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT1] mins
+   [Field-MD12TT4] min
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH1] hr,
+
+   [Field-MD12WM1] min
+   [Field-MD12WH5] hr,
+
+   [Field-MD12WM5] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC2]
+   $ [Field-MD12INC5]","{""ImportId"":""QID123""}"
+"Q10.7_First Click","Q10.7_First Click","Timing - First Click","{""ImportId"":""QID260_FIRST_CLICK""}"
+"Q10.7_Last Click","Q10.7_Last Click","Timing - Last Click","{""ImportId"":""QID260_LAST_CLICK""}"
+"Q10.7_Page Submit","Q10.7_Page Submit","Timing - Page Submit","{""ImportId"":""QID260_PAGE_SUBMIT""}"
+"Q10.7_Click Count","Q10.7_Click Count","Timing - Click Count","{""ImportId"":""QID260_CLICK_COUNT""}"
+"Q10.8","Q10.8","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT5] min
+   [Field-MD12TT5] min
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH2] hr,
+
+   [Field-MD12WM2] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC4]
+   $ [Field-MD12INC3]","{""ImportId"":""QID124""}"
+"Q10.9_First Click","Q10.9_First Click","Timing - First Click","{""ImportId"":""QID261_FIRST_CLICK""}"
+"Q10.9_Last Click","Q10.9_Last Click","Timing - Last Click","{""ImportId"":""QID261_LAST_CLICK""}"
+"Q10.9_Page Submit","Q10.9_Page Submit","Timing - Page Submit","{""ImportId"":""QID261_PAGE_SUBMIT""}"
+"Q10.9_Click Count","Q10.9_Click Count","Timing - Click Count","{""ImportId"":""QID261_CLICK_COUNT""}"
+"Q10.10","Q10.10","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT1] min
+   [Field-MD12TT2] min
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH2] hr,
+
+   [Field-MD12WM2] mins
+   [Field-MD12WH5] hr,
+
+   [Field-MD12WM5] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC1]
+   $ [Field-MD12INC3]","{""ImportId"":""QID125""}"
+"Q10.11_First Click","Q10.11_First Click","Timing - First Click","{""ImportId"":""QID262_FIRST_CLICK""}"
+"Q10.11_Last Click","Q10.11_Last Click","Timing - Last Click","{""ImportId"":""QID262_LAST_CLICK""}"
+"Q10.11_Page Submit","Q10.11_Page Submit","Timing - Page Submit","{""ImportId"":""QID262_PAGE_SUBMIT""}"
+"Q10.11_Click Count","Q10.11_Click Count","Timing - Click Count","{""ImportId"":""QID262_CLICK_COUNT""}"
+"Q10.12","Q10.12","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT2] min
+   [Field-MD12TT4] min
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH4] hr,
+
+   [Field-MD12WM4] min
+   [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC4]","{""ImportId"":""QID126""}"
+"Q10.13_First Click","Q10.13_First Click","Timing - First Click","{""ImportId"":""QID263_FIRST_CLICK""}"
+"Q10.13_Last Click","Q10.13_Last Click","Timing - Last Click","{""ImportId"":""QID263_LAST_CLICK""}"
+"Q10.13_Page Submit","Q10.13_Page Submit","Timing - Page Submit","{""ImportId"":""QID263_PAGE_SUBMIT""}"
+"Q10.13_Click Count","Q10.13_Click Count","Timing - Click Count","{""ImportId"":""QID263_CLICK_COUNT""}"
+"Q10.14","Q10.14","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT4] min
+   [Field-MD12TT1] min
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH1] hr,
+
+   [Field-MD12WM1] min
+   [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC2]
+   $ [Field-MD12INC1]","{""ImportId"":""QID127""}"
+"Q10.15_First Click","Q10.15_First Click","Timing - First Click","{""ImportId"":""QID264_FIRST_CLICK""}"
+"Q10.15_Last Click","Q10.15_Last Click","Timing - Last Click","{""ImportId"":""QID264_LAST_CLICK""}"
+"Q10.15_Page Submit","Q10.15_Page Submit","Timing - Page Submit","{""ImportId"":""QID264_PAGE_SUBMIT""}"
+"Q10.15_Click Count","Q10.15_Click Count","Timing - Click Count","{""ImportId"":""QID264_CLICK_COUNT""}"
+"Q10.16","Q10.16","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT3] min
+   [Field-MD12TT5] min
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH1] hr,
+
+   [Field-MD12WM1] min
+   [Field-MD12WH4] hr,
+
+   [Field-MD12WM4] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC1]
+   $ [Field-MD12INC4]","{""ImportId"":""QID128""}"
+"Q10.17_First Click","Q10.17_First Click","Timing - First Click","{""ImportId"":""QID265_FIRST_CLICK""}"
+"Q10.17_Last Click","Q10.17_Last Click","Timing - Last Click","{""ImportId"":""QID265_LAST_CLICK""}"
+"Q10.17_Page Submit","Q10.17_Page Submit","Timing - Page Submit","{""ImportId"":""QID265_PAGE_SUBMIT""}"
+"Q10.17_Click Count","Q10.17_Click Count","Timing - Click Count","{""ImportId"":""QID265_CLICK_COUNT""}"
+"Q10.18","Q10.18","Which do you prefer?
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+   [Field-MD12TT3] min
+    [Field-MD12TT4] min
+   [Field-MD12TT1] min
+  
+  
+   Work time per day 
+
+        
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH2] hr,
+
+   [Field-MD12WM2] mins
+   [Field-MD12WH4] hr,
+
+   [Field-MD12WM4] min
+  
+  
+   Income per day
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC5]
+   $ [Field-MD12INC5]","{""ImportId"":""QID129""}"
+"Q10.19_First Click","Q10.19_First Click","Timing - First Click","{""ImportId"":""QID266_FIRST_CLICK""}"
+"Q10.19_Last Click","Q10.19_Last Click","Timing - Last Click","{""ImportId"":""QID266_LAST_CLICK""}"
+"Q10.19_Page Submit","Q10.19_Page Submit","Timing - Page Submit","{""ImportId"":""QID266_PAGE_SUBMIT""}"
+"Q10.19_Click Count","Q10.19_Click Count","Timing - Click Count","{""ImportId"":""QID266_CLICK_COUNT""}"
+"Q10.20","Q10.20","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD12TT3] min
+    [Field-MD12TT1] min
+   [Field-MD12TT3] min
+  
+  
+   Work time per day 
+
+    [Field-MD12WH3] hr,
+
+   [Field-MD12WM3] min
+   [Field-MD12WH4] hr,
+
+   [Field-MD12WM4] min
+   [Field-MD12WH1] hr,
+
+   [Field-MD12WM1] min
+  
+  
+   Income per day
+
+   $ [Field-MD12INC3]
+   $ [Field-MD12INC2]
+   $ [Field-MD12INC2]","{""ImportId"":""QID130""}"
+"Q11.1_First Click","Q11.1_First Click","Timing - First Click","{""ImportId"":""QID267_FIRST_CLICK""}"
+"Q11.1_Last Click","Q11.1_Last Click","Timing - Last Click","{""ImportId"":""QID267_LAST_CLICK""}"
+"Q11.1_Page Submit","Q11.1_Page Submit","Timing - Page Submit","{""ImportId"":""QID267_PAGE_SUBMIT""}"
+"Q11.1_Click Count","Q11.1_Click Count","Timing - Click Count","{""ImportId"":""QID267_CLICK_COUNT""}"
+"Q11.2","Q11.2","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT4] min
+   [Field-MD345TT4] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M3TC3]
+   $ [Field-M3TC5]
+   $ [Field-M3TC4]
+  
+  
+   Work time per day 
+
+   [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH5] hr,
+
+   [Field-MD345WM5] min
+   [Field-MD345WH1] hr,
+
+   [Field-MD345WM1] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC5]
+   $ [Field-MD345INC3]","{""ImportId"":""QID131""}"
+"Q11.3_First Click","Q11.3_First Click","Timing - First Click","{""ImportId"":""QID268_FIRST_CLICK""}"
+"Q11.3_Last Click","Q11.3_Last Click","Timing - Last Click","{""ImportId"":""QID268_LAST_CLICK""}"
+"Q11.3_Page Submit","Q11.3_Page Submit","Timing - Page Submit","{""ImportId"":""QID268_PAGE_SUBMIT""}"
+"Q11.3_Click Count","Q11.3_Click Count","Timing - Click Count","{""ImportId"":""QID268_CLICK_COUNT""}"
+"Q11.4","Q11.4","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT3]min
+   [Field-MD345TT5] min
+  
+ 
+   Travel cost (round-trip)
+
+   $ [Field-M3TC3]
+   $ [Field-M3TC3]
+   $ [Field-M3TC4]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH2] hr,
+
+   [Field-MD345WM2] min
+   [Field-MD345WH5] hr,
+
+   [Field-MD345WM5] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC1]
+   $ [Field-MD345INC5]","{""ImportId"":""QID132""}"
+"Q11.5_First Click","Q11.5_First Click","Timing - First Click","{""ImportId"":""QID269_FIRST_CLICK""}"
+"Q11.5_Last Click","Q11.5_Last Click","Timing - Last Click","{""ImportId"":""QID269_LAST_CLICK""}"
+"Q11.5_Page Submit","Q11.5_Page Submit","Timing - Page Submit","{""ImportId"":""QID269_PAGE_SUBMIT""}"
+"Q11.5_Click Count","Q11.5_Click Count","Timing - Click Count","{""ImportId"":""QID269_CLICK_COUNT""}"
+"Q11.6","Q11.6","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT1] min
+   [Field-MD345TT5] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M3TC3]
+   $ [Field-M3TC3]
+   $ [Field-M3TC5]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH2] hr,
+
+   [Field-MD345WM2] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC1]
+   $ [Field-MD345INC5]","{""ImportId"":""QID133""}"
+"Q11.7_First Click","Q11.7_First Click","Timing - First Click","{""ImportId"":""QID270_FIRST_CLICK""}"
+"Q11.7_Last Click","Q11.7_Last Click","Timing - Last Click","{""ImportId"":""QID270_LAST_CLICK""}"
+"Q11.7_Page Submit","Q11.7_Page Submit","Timing - Page Submit","{""ImportId"":""QID270_PAGE_SUBMIT""}"
+"Q11.7_Click Count","Q11.7_Click Count","Timing - Click Count","{""ImportId"":""QID270_CLICK_COUNT""}"
+"Q11.8","Q11.8","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT4] min
+   [Field-MD345TT1] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M3TC3]
+   $ [Field-M3TC1]
+   $ [Field-M3TC3]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH2] hr,
+
+   [Field-MD345WM2] min
+   [Field-MD345WH2] hr,
+
+   [Field-MD345WM2] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC2]
+   $ [Field-MD345INC1]","{""ImportId"":""QID134""}"
+"Q11.9_First Click","Q11.9_First Click","Timing - First Click","{""ImportId"":""QID271_FIRST_CLICK""}"
+"Q11.9_Last Click","Q11.9_Last Click","Timing - Last Click","{""ImportId"":""QID271_LAST_CLICK""}"
+"Q11.9_Page Submit","Q11.9_Page Submit","Timing - Page Submit","{""ImportId"":""QID271_PAGE_SUBMIT""}"
+"Q11.9_Click Count","Q11.9_Click Count","Timing - Click Count","{""ImportId"":""QID271_CLICK_COUNT""}"
+"Q11.10","Q11.10","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT5] min
+   [Field-MD345TT1] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M3TC3]
+   $ [Field-M3TC4]
+   $ [Field-M3TC3]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+   [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC4]
+   $ [Field-MD345INC1]","{""ImportId"":""QID135""}"
+"Q11.11_First Click","Q11.11_First Click","Timing - First Click","{""ImportId"":""QID272_FIRST_CLICK""}"
+"Q11.11_Last Click","Q11.11_Last Click","Timing - Last Click","{""ImportId"":""QID272_LAST_CLICK""}"
+"Q11.11_Page Submit","Q11.11_Page Submit","Timing - Page Submit","{""ImportId"":""QID272_PAGE_SUBMIT""}"
+"Q11.11_Click Count","Q11.11_Click Count","Timing - Click Count","{""ImportId"":""QID272_CLICK_COUNT""}"
+"Q11.12","Q11.12","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT2] min
+   [Field-MD345TT4] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M3TC3]
+   $ [Field-M3TC5]
+   $ [Field-M3TC1]
+  
+  
+   Work time per day
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC4]
+   $ [Field-MD345INC4]","{""ImportId"":""QID136""}"
+"Q11.13_First Click","Q11.13_First Click","Timing - First Click","{""ImportId"":""QID273_FIRST_CLICK""}"
+"Q11.13_Last Click","Q11.13_Last Click","Timing - Last Click","{""ImportId"":""QID273_LAST_CLICK""}"
+"Q11.13_Page Submit","Q11.13_Page Submit","Timing - Page Submit","{""ImportId"":""QID273_PAGE_SUBMIT""}"
+"Q11.13_Click Count","Q11.13_Click Count","Timing - Click Count","{""ImportId"":""QID273_CLICK_COUNT""}"
+"Q11.14","Q11.14","Which do you prefer?
+  
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT1] min
+   [Field-MD345TT3] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M3TC3]
+   $ [Field-M3TC2]
+   $ [Field-M3TC2]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH5] hr,
+
+   [Field-MD345WM5] min
+   [Field-MD345WH1] hr,
+
+   [Field-MD345WM1] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC2]
+   $ [Field-MD345INC2]","{""ImportId"":""QID137""}"
+"Q11.15_First Click","Q11.15_First Click","Timing - First Click","{""ImportId"":""QID274_FIRST_CLICK""}"
+"Q11.15_Last Click","Q11.15_Last Click","Timing - Last Click","{""ImportId"":""QID274_LAST_CLICK""}"
+"Q11.15_Page Submit","Q11.15_Page Submit","Timing - Page Submit","{""ImportId"":""QID274_PAGE_SUBMIT""}"
+"Q11.15_Click Count","Q11.15_Click Count","Timing - Click Count","{""ImportId"":""QID274_CLICK_COUNT""}"
+"Q11.16","Q11.16","Which do you prefer?
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT5] min
+   [Field-MD345TT2] min
+  
+ 
+   Travel cost (round-trip)
+
+   $ [Field-M3TC3]
+   $ [Field-M3TC2]
+   $ [Field-M3TC5]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC5]
+   $ [Field-MD345INC5]","{""ImportId"":""QID138""}"
+"Q11.17_First Click","Q11.17_First Click","Timing - First Click","{""ImportId"":""QID275_FIRST_CLICK""}"
+"Q11.17_Last Click","Q11.17_Last Click","Timing - Last Click","{""ImportId"":""QID275_LAST_CLICK""}"
+"Q11.17_Page Submit","Q11.17_Page Submit","Timing - Page Submit","{""ImportId"":""QID275_PAGE_SUBMIT""}"
+"Q11.17_Click Count","Q11.17_Click Count","Timing - Click Count","{""ImportId"":""QID275_CLICK_COUNT""}"
+"Q11.18","Q11.18","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT2] min
+   [Field-MD345TT3] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M3TC3]
+   $ [Field-M3TC5]
+   $ [Field-M3TC1]
+  
+  
+   Work time per day    
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH5] hr,
+
+   [Field-MD345WM5] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC4]
+   $ [Field-MD345INC4]","{""ImportId"":""QID139""}"
+"Q11.19_First Click","Q11.19_First Click","Timing - First Click","{""ImportId"":""QID276_FIRST_CLICK""}"
+"Q11.19_Last Click","Q11.19_Last Click","Timing - Last Click","{""ImportId"":""QID276_LAST_CLICK""}"
+"Q11.19_Page Submit","Q11.19_Page Submit","Timing - Page Submit","{""ImportId"":""QID276_PAGE_SUBMIT""}"
+"Q11.19_Click Count","Q11.19_Click Count","Timing - Click Count","{""ImportId"":""QID276_CLICK_COUNT""}"
+"Q11.20","Q11.20","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT3] min
+   [Field-MD345TT2] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M3TC3]
+   $ [Field-M3TC4]
+   $ [Field-M3TC1]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH1] hr,
+
+   [Field-MD345WM1] min
+   [Field-MD345WH2] hr,
+
+   [Field-MD345WM2] mins
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC2]","{""ImportId"":""QID140""}"
+"Q12.1_First Click","Q12.1_First Click","Timing - First Click","{""ImportId"":""QID277_FIRST_CLICK""}"
+"Q12.1_Last Click","Q12.1_Last Click","Timing - Last Click","{""ImportId"":""QID277_LAST_CLICK""}"
+"Q12.1_Page Submit","Q12.1_Page Submit","Timing - Page Submit","{""ImportId"":""QID277_PAGE_SUBMIT""}"
+"Q12.1_Click Count","Q12.1_Click Count","Timing - Click Count","{""ImportId"":""QID277_CLICK_COUNT""}"
+"Q12.2","Q12.2","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT1] min
+   [Field-MD345TT4] min
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH5] hr,
+
+   [Field-MD345WM5] min
+   [Field-MD345WH2] hr,
+
+   [Field-MD345WM2] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC3]","{""ImportId"":""QID141""}"
+"Q12.3_First Click","Q12.3_First Click","Timing - First Click","{""ImportId"":""QID278_FIRST_CLICK""}"
+"Q12.3_Last Click","Q12.3_Last Click","Timing - Last Click","{""ImportId"":""QID278_LAST_CLICK""}"
+"Q12.3_Page Submit","Q12.3_Page Submit","Timing - Page Submit","{""ImportId"":""QID278_PAGE_SUBMIT""}"
+"Q12.3_Click Count","Q12.3_Click Count","Timing - Click Count","{""ImportId"":""QID278_CLICK_COUNT""}"
+"Q12.4","Q12.4","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT2] min
+   [Field-MD345TT5] min
+  
+  
+   Work time per day
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+   [Field-MD345WH5] hr,
+
+   [Field-MD345WM5] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC4]","{""ImportId"":""QID142""}"
+"Q12.5_First Click","Q12.5_First Click","Timing - First Click","{""ImportId"":""QID279_FIRST_CLICK""}"
+"Q12.5_Last Click","Q12.5_Last Click","Timing - Last Click","{""ImportId"":""QID279_LAST_CLICK""}"
+"Q12.5_Page Submit","Q12.5_Page Submit","Timing - Page Submit","{""ImportId"":""QID279_PAGE_SUBMIT""}"
+"Q12.5_Click Count","Q12.5_Click Count","Timing - Click Count","{""ImportId"":""QID279_CLICK_COUNT""}"
+"Q12.6","Q12.6","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT5] min
+   [Field-MD345TT2] min
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH5] hr,
+
+   [Field-MD345WM5] min
+   [Field-MD345WH2] hr,
+
+   [Field-MD345WM2] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC4]
+   $ [Field-MD345INC2]","{""ImportId"":""QID143""}"
+"Q12.7_First Click","Q12.7_First Click","Timing - First Click","{""ImportId"":""QID280_FIRST_CLICK""}"
+"Q12.7_Last Click","Q12.7_Last Click","Timing - Last Click","{""ImportId"":""QID280_LAST_CLICK""}"
+"Q12.7_Page Submit","Q12.7_Page Submit","Timing - Page Submit","{""ImportId"":""QID280_PAGE_SUBMIT""}"
+"Q12.7_Click Count","Q12.7_Click Count","Timing - Click Count","{""ImportId"":""QID280_CLICK_COUNT""}"
+"Q12.8","Q12.8","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT1] min
+   [Field-MD345TT3] min
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH1] hr,
+
+   [Field-MD345WM1] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC1]
+   $ [Field-MD345INC2]","{""ImportId"":""QID144""}"
+"Q12.9_First Click","Q12.9_First Click","Timing - First Click","{""ImportId"":""QID281_FIRST_CLICK""}"
+"Q12.9_Last Click","Q12.9_Last Click","Timing - Last Click","{""ImportId"":""QID281_LAST_CLICK""}"
+"Q12.9_Page Submit","Q12.9_Page Submit","Timing - Page Submit","{""ImportId"":""QID281_PAGE_SUBMIT""}"
+"Q12.9_Click Count","Q12.9_Click Count","Timing - Click Count","{""ImportId"":""QID281_CLICK_COUNT""}"
+"Q12.10","Q12.10","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT3] min
+   [Field-MD345TT2] min
+  
+  
+   Work time per day
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH2] hr,
+
+   [Field-MD345WM2] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC2]
+   $ [Field-MD345INC3]","{""ImportId"":""QID145""}"
+"Q12.11_First Click","Q12.11_First Click","Timing - First Click","{""ImportId"":""QID282_FIRST_CLICK""}"
+"Q12.11_Last Click","Q12.11_Last Click","Timing - Last Click","{""ImportId"":""QID282_LAST_CLICK""}"
+"Q12.11_Page Submit","Q12.11_Page Submit","Timing - Page Submit","{""ImportId"":""QID282_PAGE_SUBMIT""}"
+"Q12.11_Click Count","Q12.11_Click Count","Timing - Click Count","{""ImportId"":""QID282_CLICK_COUNT""}"
+"Q12.12","Q12.12","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT4] min
+   [Field-MD345TT1] min
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+   [Field-MD345WH1] hr,
+
+   [Field-MD345WM1] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC4]
+   $ [Field-MD345INC1]","{""ImportId"":""QID146""}"
+"Q12.13_First Click","Q12.13_First Click","Timing - First Click","{""ImportId"":""QID283_FIRST_CLICK""}"
+"Q12.13_Last Click","Q12.13_Last Click","Timing - Last Click","{""ImportId"":""QID283_LAST_CLICK""}"
+"Q12.13_Page Submit","Q12.13_Page Submit","Timing - Page Submit","{""ImportId"":""QID283_PAGE_SUBMIT""}"
+"Q12.13_Click Count","Q12.13_Click Count","Timing - Click Count","{""ImportId"":""QID283_CLICK_COUNT""}"
+"Q12.14","Q12.14","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT4] min
+   [Field-MD345TT4] min
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+   [Field-MD345WH1] hr,
+
+   [Field-MD345WM1] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC5]
+   $ [Field-MD345INC4]","{""ImportId"":""QID147""}"
+"Q12.15_First Click","Q12.15_First Click","Timing - First Click","{""ImportId"":""QID284_FIRST_CLICK""}"
+"Q12.15_Last Click","Q12.15_Last Click","Timing - Last Click","{""ImportId"":""QID284_LAST_CLICK""}"
+"Q12.15_Page Submit","Q12.15_Page Submit","Timing - Page Submit","{""ImportId"":""QID284_PAGE_SUBMIT""}"
+"Q12.15_Click Count","Q12.15_Click Count","Timing - Click Count","{""ImportId"":""QID284_CLICK_COUNT""}"
+"Q12.16","Q12.16","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT5] min
+   [Field-MD345TT2] min
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH5] hr,
+
+   [Field-MD345WM5] min
+   [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC4]
+   $ [Field-MD345INC1]","{""ImportId"":""QID148""}"
+"Q12.17_First Click","Q12.17_First Click","Timing - First Click","{""ImportId"":""QID285_FIRST_CLICK""}"
+"Q12.17_Last Click","Q12.17_Last Click","Timing - Last Click","{""ImportId"":""QID285_LAST_CLICK""}"
+"Q12.17_Page Submit","Q12.17_Page Submit","Timing - Page Submit","{""ImportId"":""QID285_PAGE_SUBMIT""}"
+"Q12.17_Click Count","Q12.17_Click Count","Timing - Click Count","{""ImportId"":""QID285_CLICK_COUNT""}"
+"Q12.18","Q12.18","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT3] min
+   [Field-MD345TT5] min
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH1] hr,
+
+   [Field-MD345WM1] min
+   [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC1]
+   $ [Field-MD345INC4]","{""ImportId"":""QID149""}"
+"Q12.19_First Click","Q12.19_First Click","Timing - First Click","{""ImportId"":""QID286_FIRST_CLICK""}"
+"Q12.19_Last Click","Q12.19_Last Click","Timing - Last Click","{""ImportId"":""QID286_LAST_CLICK""}"
+"Q12.19_Page Submit","Q12.19_Page Submit","Timing - Page Submit","{""ImportId"":""QID286_PAGE_SUBMIT""}"
+"Q12.19_Click Count","Q12.19_Click Count","Timing - Click Count","{""ImportId"":""QID286_CLICK_COUNT""}"
+"Q12.20","Q12.20","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT4] min
+   [Field-MD345TT5] min
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH5] hr,
+
+   [Field-MD345WM5] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC5]
+   $ [Field-MD345INC5]","{""ImportId"":""QID150""}"
+"Q13.1_First Click","Q13.1_First Click","Timing - First Click","{""ImportId"":""QID287_FIRST_CLICK""}"
+"Q13.1_Last Click","Q13.1_Last Click","Timing - Last Click","{""ImportId"":""QID287_LAST_CLICK""}"
+"Q13.1_Page Submit","Q13.1_Page Submit","Timing - Page Submit","{""ImportId"":""QID287_PAGE_SUBMIT""}"
+"Q13.1_Click Count","Q13.1_Click Count","Timing - Click Count","{""ImportId"":""QID287_CLICK_COUNT""}"
+"Q13.2","Q13.2","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT4] min
+   [Field-MD345TT4] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC5]
+   $ [Field-M15TC4]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH5] hr,
+
+   [Field-MD345WM5] min
+   [Field-MD345WH1] hr,
+
+   [Field-MD345WM1] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC5]
+   $ [Field-MD345INC3]","{""ImportId"":""QID151""}"
+"Q13.3_First Click","Q13.3_First Click","Timing - First Click","{""ImportId"":""QID288_FIRST_CLICK""}"
+"Q13.3_Last Click","Q13.3_Last Click","Timing - Last Click","{""ImportId"":""QID288_LAST_CLICK""}"
+"Q13.3_Page Submit","Q13.3_Page Submit","Timing - Page Submit","{""ImportId"":""QID288_PAGE_SUBMIT""}"
+"Q13.3_Click Count","Q13.3_Click Count","Timing - Click Count","{""ImportId"":""QID288_CLICK_COUNT""}"
+"Q13.4","Q13.4","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT3] min
+   [Field-MD345TT5] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC3]
+   $ [Field-M15TC4]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH2] hr,
+
+   [Field-MD345WM2] min
+   [Field-MD345WH5] hr,
+
+   [Field-MD345WM5] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3] 
+   $ [Field-MD345INC1]
+   $ [Field-MD345INC5]","{""ImportId"":""QID152""}"
+"Q13.5_First Click","Q13.5_First Click","Timing - First Click","{""ImportId"":""QID289_FIRST_CLICK""}"
+"Q13.5_Last Click","Q13.5_Last Click","Timing - Last Click","{""ImportId"":""QID289_LAST_CLICK""}"
+"Q13.5_Page Submit","Q13.5_Page Submit","Timing - Page Submit","{""ImportId"":""QID289_PAGE_SUBMIT""}"
+"Q13.5_Click Count","Q13.5_Click Count","Timing - Click Count","{""ImportId"":""QID289_CLICK_COUNT""}"
+"Q13.6","Q13.6","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT1] min
+   [Field-MD345TT5] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC3]
+   $ [Field-M15TC5]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH2] hr,
+
+   [Field-MD345WM2] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC1]
+   $ [Field-MD345INC5]","{""ImportId"":""QID153""}"
+"Q13.7_First Click","Q13.7_First Click","Timing - First Click","{""ImportId"":""QID290_FIRST_CLICK""}"
+"Q13.7_Last Click","Q13.7_Last Click","Timing - Last Click","{""ImportId"":""QID290_LAST_CLICK""}"
+"Q13.7_Page Submit","Q13.7_Page Submit","Timing - Page Submit","{""ImportId"":""QID290_PAGE_SUBMIT""}"
+"Q13.7_Click Count","Q13.7_Click Count","Timing - Click Count","{""ImportId"":""QID290_CLICK_COUNT""}"
+"Q13.8","Q13.8","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT4] min
+   [Field-MD345TT1] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC1]
+   $ [Field-M15TC3]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH2] hr,
+
+   [Field-MD345WM2] min
+   [Field-MD345WH2] hr,
+
+   [Field-MD345WM2] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3] 
+   $ [Field-MD345INC2]
+   $ [Field-MD345INC1]","{""ImportId"":""QID154""}"
+"Q13.9_First Click","Q13.9_First Click","Timing - First Click","{""ImportId"":""QID291_FIRST_CLICK""}"
+"Q13.9_Last Click","Q13.9_Last Click","Timing - Last Click","{""ImportId"":""QID291_LAST_CLICK""}"
+"Q13.9_Page Submit","Q13.9_Page Submit","Timing - Page Submit","{""ImportId"":""QID291_PAGE_SUBMIT""}"
+"Q13.9_Click Count","Q13.9_Click Count","Timing - Click Count","{""ImportId"":""QID291_CLICK_COUNT""}"
+"Q13.10","Q13.10","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT5] min
+   [Field-MD345TT1] min
+  
+ 
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC4]
+   $ [Field-M15TC3]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+   [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC4]
+   $ [Field-MD345INC1]","{""ImportId"":""QID155""}"
+"Q13.11_First Click","Q13.11_First Click","Timing - First Click","{""ImportId"":""QID292_FIRST_CLICK""}"
+"Q13.11_Last Click","Q13.11_Last Click","Timing - Last Click","{""ImportId"":""QID292_LAST_CLICK""}"
+"Q13.11_Page Submit","Q13.11_Page Submit","Timing - Page Submit","{""ImportId"":""QID292_PAGE_SUBMIT""}"
+"Q13.11_Click Count","Q13.11_Click Count","Timing - Click Count","{""ImportId"":""QID292_CLICK_COUNT""}"
+"Q13.12","Q13.12","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT2] min
+   [Field-MD345TT4] min
+  
+ 
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC5]
+   $ [Field-M15TC1]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3] 
+   $ [Field-MD345INC4]
+   $ [Field-MD345INC4]","{""ImportId"":""QID156""}"
+"Q13.13_First Click","Q13.13_First Click","Timing - First Click","{""ImportId"":""QID293_FIRST_CLICK""}"
+"Q13.13_Last Click","Q13.13_Last Click","Timing - Last Click","{""ImportId"":""QID293_LAST_CLICK""}"
+"Q13.13_Page Submit","Q13.13_Page Submit","Timing - Page Submit","{""ImportId"":""QID293_PAGE_SUBMIT""}"
+"Q13.13_Click Count","Q13.13_Click Count","Timing - Click Count","{""ImportId"":""QID293_CLICK_COUNT""}"
+"Q13.14","Q13.14","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT1] min
+   [Field-MD345TT3] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC2]
+   $ [Field-M15TC2]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH5] hr,
+
+   [Field-MD345WM5] min
+   [Field-MD345WH1] hr,
+
+   [Field-MD345WM1] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC2]
+   $ [Field-MD345INC2]","{""ImportId"":""QID157""}"
+"Q13.15_First Click","Q13.15_First Click","Timing - First Click","{""ImportId"":""QID294_FIRST_CLICK""}"
+"Q13.15_Last Click","Q13.15_Last Click","Timing - Last Click","{""ImportId"":""QID294_LAST_CLICK""}"
+"Q13.15_Page Submit","Q13.15_Page Submit","Timing - Page Submit","{""ImportId"":""QID294_PAGE_SUBMIT""}"
+"Q13.15_Click Count","Q13.15_Click Count","Timing - Click Count","{""ImportId"":""QID294_CLICK_COUNT""}"
+"Q13.16","Q13.16","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+ 
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC2]
+   $ [Field-M15TC5]
+  
+  
+   Travel time (round-trip)
+
+
+   [Field-MD345TT3] min
+    [Field-MD345TT5] min
+   [Field-MD345TT2] min
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH4] hr,
+
+   [Field-MD345WM4] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC5]
+   $ [Field-MD345INC5]","{""ImportId"":""QID158""}"
+"Q13.17_First Click","Q13.17_First Click","Timing - First Click","{""ImportId"":""QID295_FIRST_CLICK""}"
+"Q13.17_Last Click","Q13.17_Last Click","Timing - Last Click","{""ImportId"":""QID295_LAST_CLICK""}"
+"Q13.17_Page Submit","Q13.17_Page Submit","Timing - Page Submit","{""ImportId"":""QID295_PAGE_SUBMIT""}"
+"Q13.17_Click Count","Q13.17_Click Count","Timing - Click Count","{""ImportId"":""QID295_CLICK_COUNT""}"
+"Q13.18","Q13.18","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT2] min
+   [Field-MD345TT3] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC5]
+   $ [Field-M15TC1]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH5] hr,
+
+   [Field-MD345WM5] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC4]
+   $ [Field-MD345INC4]","{""ImportId"":""QID159""}"
+"Q13.19_First Click","Q13.19_First Click","Timing - First Click","{""ImportId"":""QID296_FIRST_CLICK""}"
+"Q13.19_Last Click","Q13.19_Last Click","Timing - Last Click","{""ImportId"":""QID296_LAST_CLICK""}"
+"Q13.19_Page Submit","Q13.19_Page Submit","Timing - Page Submit","{""ImportId"":""QID296_PAGE_SUBMIT""}"
+"Q13.19_Click Count","Q13.19_Click Count","Timing - Click Count","{""ImportId"":""QID296_CLICK_COUNT""}"
+"Q13.20","Q13.20","Which do you prefer?
+
+ 
+
+ 
+  
+   Attributes
+   Current 
+   Alternative A
+   Alternative B
+  
+  
+   Travel time (round-trip)
+
+   [Field-MD345TT3] min
+    [Field-MD345TT3] min
+   [Field-MD345TT2] min
+  
+
+   Travel cost (round-trip)
+
+   $ [Field-M15TC3]
+   $ [Field-M15TC4]
+   $ [Field-M15TC1]
+  
+  
+   Work time per day 
+
+    [Field-MD345WH3] hr,
+
+   [Field-MD345WM3] min
+   [Field-MD345WH1] hr,
+
+   [Field-MD345WM1] min
+   [Field-MD345WH2] hr,
+
+   [Field-MD345WM2] min
+  
+  
+   Income per day
+
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC3]
+   $ [Field-MD345INC2]","{""ImportId"":""QID160""}"
+"Q14.1_1","Q14.1_1","How important were the following attributes in selecting the choice from previous section? - Travel time","{""ImportId"":""QID161_1""}"
+"Q14.1_2","Q14.1_2","How important were the following attributes in selecting the choice from previous section? - Travel cost","{""ImportId"":""QID161_9""}"
+"Q14.1_3","Q14.1_3","How important were the following attributes in selecting the choice from previous section? - Work time","{""ImportId"":""QID161_3""}"
+"Q14.1_4","Q14.1_4","How important were the following attributes in selecting the choice from previous section? - Income","{""ImportId"":""QID161_11""}"
+"Q14.3_1","Q14.3_1","At what time [Field-Dis1] you normally depart from home to work? (Click the box to use a drop down menu to select hour, minute, and AM or PM.) - Departure time","{""ImportId"":""QID162_1""}"
+"Q14.4","Q14.4","How satisfied [Field-Dis4] you with your work?","{""ImportId"":""QID163""}"
+"Q14.5","Q14.5","How satisfied [Field-Dis4] you with your commute to work?","{""ImportId"":""QID164""}"
+"Q14.6","Q14.6","[Field-Dis8] your work hours flexible, so that you [Field-Dis9] work more or less than the average work hours in a day or a week? We're asking if you [Field-Dis9] adjust the number of hours you work, not your schedule of working them.","{""ImportId"":""QID165""}"
+"Q14.7","Q14.7","If you [Field-Dis10] more or less in a day or a week, [Field-Dis3] your income change?","{""ImportId"":""QID166""}"
+"Q14.8","Q14.8","Which activity [Field-Dis1] you enjoy more, working or commuting?","{""ImportId"":""QID168""}"
+"Q14.9","Q14.9","Assuming your work time and income [Field-Dis11] the same as they [Field-Dis4], what [Field-Dis12] your ideal commuting time (one-way) to work?","{""ImportId"":""QID169""}"
+"Q15.2","Q15.2","What is your age?","{""ImportId"":""QID197""}"
+"Q15.3","Q15.3","How do you describe yourself? Check all that apply. - Selected Choice","{""ImportId"":""QID195""}"
+"Q15.3_7_TEXT","Q15.3_7_TEXT","How do you describe yourself? Check all that apply. - Prefer to self-describe: - Text","{""ImportId"":""QID195_7_TEXT""}"
+"Q15.4","Q15.4","How many people 18 years old or above (including yourself) live in your household?","{""ImportId"":""QID175_TEXT""}"
+"Q15.5","Q15.5","How many people below 18 years old live in your household?","{""ImportId"":""QID219_TEXT""}"
+"Q15.6","Q15.6","How many people in your household have a source of income?","{""ImportId"":""QID177_TEXT""}"
+"Q15.7","Q15.7","[Field-Dis14] you the primary source of income in your household?","{""ImportId"":""QID178""}"
+"Q15.8","Q15.8","Which of the following best describes the place where you [Field-Dis13]?","{""ImportId"":""QID182""}"
+"Q15.9","Q15.9","Which of the following best describes the place where you [Field-Dis10]?","{""ImportId"":""QID218""}"
+"Q15.10","Q15.10","What is the highest degree or level of school you have completed? If currently enrolled in school, indicate the highest degree received.","{""ImportId"":""QID196""}"
+"Q16.2","Q16.2","If you have any comments for the research team about this survey, please provide them below. We appreciate your feedback.","{""ImportId"":""QID186_TEXT""}"
+"opp","opp","opp","{""ImportId"":""opp""}"
+"QPMID","QPMID","QPMID","{""ImportId"":""QPMID""}"
+"Q_TotalDuration","Q_TotalDuration","Q_TotalDuration","{""ImportId"":""Q_TotalDuration""}"
+"RISN","RISN","RISN","{""ImportId"":""RISN""}"
+"rid","rid","rid","{""ImportId"":""rid""}"
+"V","V","V","{""ImportId"":""V""}"
+"gc","gc","gc","{""ImportId"":""gc""}"
+"term","term","term","{""ImportId"":""term""}"
+"Dis1","Dis1","Dis1","{""ImportId"":""Dis1""}"
+"Dis2","Dis2","Dis2","{""ImportId"":""Dis2""}"
+"Dis3","Dis3","Dis3","{""ImportId"":""Dis3""}"
+"Dis4","Dis4","Dis4","{""ImportId"":""Dis4""}"
+"Dis5","Dis5","Dis5","{""ImportId"":""Dis5""}"
+"Dis6","Dis6","Dis6","{""ImportId"":""Dis6""}"
+"Dis7","Dis7","Dis7","{""ImportId"":""Dis7""}"
+"Dis8","Dis8","Dis8","{""ImportId"":""Dis8""}"
+"Dis9","Dis9","Dis9","{""ImportId"":""Dis9""}"
+"Dis10","Dis10","Dis10","{""ImportId"":""Dis10""}"
+"Dis11","Dis11","Dis11","{""ImportId"":""Dis11""}"
+"Dis12","Dis12","Dis12","{""ImportId"":""Dis12""}"
+"Dis13","Dis13","Dis13","{""ImportId"":""Dis13""}"
+"Dis14","Dis14","Dis14","{""ImportId"":""Dis14""}"
+"Commute days","Commute days","Commute days","{""ImportId"":""Commute days""}"
+"Mode","Mode","Mode","{""ImportId"":""Mode""}"
+"Work in hours","Work in hours","Work in hours","{""ImportId"":""Work in hours""}"
+"Work Minutes","Work Minutes","Work Minutes","{""ImportId"":""Work Minutes""}"
+"DWT","DWT","DWT","{""ImportId"":""DWT""}"
+"Work days","Work days","Work days","{""ImportId"":""Work days""}"
+"Income PD","Income PD","Income PD","{""ImportId"":""Income PD""}"
+"TTPD","TTPD","TTPD","{""ImportId"":""TTPD""}"
+"Gallons consumed","Gallons consumed","Gallons consumed","{""ImportId"":""Gallons consumed""}"
+"Calculated fuel cost","Calculated fuel cost","Calculated fuel cost","{""ImportId"":""Calculated fuel cost""}"
+"Fuel cost from provided","Fuel cost from provided","Fuel cost from provided","{""ImportId"":""Fuel cost from provided""}"
+"Parking cost","Parking cost","Parking cost","{""ImportId"":""Parking cost""}"
+"Toll cost","Toll cost","Toll cost","{""ImportId"":""Toll cost""}"
+"Fare cost","Fare cost","Fare cost","{""ImportId"":""Fare cost""}"
+"TCPD","TCPD","TCPD","{""ImportId"":""TCPD""}"
+"PTTC1","PTTC1","PTTC1","{""ImportId"":""PTTC1""}"
+"PTTC2","PTTC2","PTTC2","{""ImportId"":""PTTC2""}"
+"PWTC1","PWTC1","PWTC1","{""ImportId"":""PWTC1""}"
+"PWTC2","PWTC2","PWTC2","{""ImportId"":""PWTC2""}"
+"PINCC1","PINCC1","PINCC1","{""ImportId"":""PINCC1""}"
+"PINCC2","PINCC2","PINCC2","{""ImportId"":""PINCC2""}"
+"PTCC1","PTCC1","PTCC1","{""ImportId"":""PTCC1""}"
+"PTCC2","PTCC2","PTCC2","{""ImportId"":""PTCC2""}"
+"CINCC1","CINCC1","CINCC1","{""ImportId"":""CINCC1""}"
+"CINCC2","CINCC2","CINCC2","{""ImportId"":""CINCC2""}"
+"MD12TT1","MD12TT1","MD12TT1","{""ImportId"":""MD12TT1""}"
+"MD12TT2","MD12TT2","MD12TT2","{""ImportId"":""MD12TT2""}"
+"MD12TT3","MD12TT3","MD12TT3","{""ImportId"":""MD12TT3""}"
+"MD12TT4","MD12TT4","MD12TT4","{""ImportId"":""MD12TT4""}"
+"MD12TT5","MD12TT5","MD12TT5","{""ImportId"":""MD12TT5""}"
+"MD345TT1","MD345TT1","MD345TT1","{""ImportId"":""MD345TT1""}"
+"MD345TT2","MD345TT2","MD345TT2","{""ImportId"":""MD345TT2""}"
+"MD345TT3","MD345TT3","MD345TT3","{""ImportId"":""MD345TT3""}"
+"MD345TT4","MD345TT4","MD345TT4","{""ImportId"":""MD345TT4""}"
+"MD345TT5","MD345TT5","MD345TT5","{""ImportId"":""MD345TT5""}"
+"MD12WT1","MD12WT1","MD12WT1","{""ImportId"":""MD12WT1""}"
+"MD12WT2","MD12WT2","MD12WT2","{""ImportId"":""MD12WT2""}"
+"MD12WT3","MD12WT3","MD12WT3","{""ImportId"":""MD12WT3""}"
+"MD12WT4","MD12WT4","MD12WT4","{""ImportId"":""MD12WT4""}"
+"MD12WT5","MD12WT5","MD12WT5","{""ImportId"":""MD12WT5""}"
+"MD345WT1","MD345WT1","MD345WT1","{""ImportId"":""MD345WT1""}"
+"MD345WT2","MD345WT2","MD345WT2","{""ImportId"":""MD345WT2""}"
+"MD345WT3","MD345WT3","MD345WT3","{""ImportId"":""MD345WT3""}"
+"MD345WT4","MD345WT4","MD345WT4","{""ImportId"":""MD345WT4""}"
+"MD345WT5","MD345WT5","MD345WT5","{""ImportId"":""MD345WT5""}"
+"MD12INC1","MD12INC1","MD12INC1","{""ImportId"":""MD12INC1""}"
+"MD12INC2","MD12INC2","MD12INC2","{""ImportId"":""MD12INC2""}"
+"MD12INC3","MD12INC3","MD12INC3","{""ImportId"":""MD12INC3""}"
+"MD12INC4","MD12INC4","MD12INC4","{""ImportId"":""MD12INC4""}"
+"MD12INC5","MD12INC5","MD12INC5","{""ImportId"":""MD12INC5""}"
+"MD345INC1","MD345INC1","MD345INC1","{""ImportId"":""MD345INC1""}"
+"MD345INC2","MD345INC2","MD345INC2","{""ImportId"":""MD345INC2""}"
+"MD345INC3","MD345INC3","MD345INC3","{""ImportId"":""MD345INC3""}"
+"MD345INC4","MD345INC4","MD345INC4","{""ImportId"":""MD345INC4""}"
+"MD345INC5","MD345INC5","MD345INC5","{""ImportId"":""MD345INC5""}"
+"M15TC1","M15TC1","M15TC1","{""ImportId"":""M15TC1""}"
+"M15TC2","M15TC2","M15TC2","{""ImportId"":""M15TC2""}"
+"M15TC3","M15TC3","M15TC3","{""ImportId"":""M15TC3""}"
+"M15TC4","M15TC4","M15TC4","{""ImportId"":""M15TC4""}"
+"M15TC5","M15TC5","M15TC5","{""ImportId"":""M15TC5""}"
+"M3TC1","M3TC1","M3TC1","{""ImportId"":""M3TC1""}"
+"M3TC2","M3TC2","M3TC2","{""ImportId"":""M3TC2""}"
+"M3TC3","M3TC3","M3TC3","{""ImportId"":""M3TC3""}"
+"M3TC4","M3TC4","M3TC4","{""ImportId"":""M3TC4""}"
+"M3TC5","M3TC5","M3TC5","{""ImportId"":""M3TC5""}"
+"MD12WH1","MD12WH1","MD12WH1","{""ImportId"":""MD12WH1""}"
+"MD12WH2","MD12WH2","MD12WH2","{""ImportId"":""MD12WH2""}"
+"MD12WH3","MD12WH3","MD12WH3","{""ImportId"":""MD12WH3""}"
+"MD12WH4","MD12WH4","MD12WH4","{""ImportId"":""MD12WH4""}"
+"MD12WH5","MD12WH5","MD12WH5","{""ImportId"":""MD12WH5""}"
+"MD345WH1","MD345WH1","MD345WH1","{""ImportId"":""MD345WH1""}"
+"MD345WH2","MD345WH2","MD345WH2","{""ImportId"":""MD345WH2""}"
+"MD345WH3","MD345WH3","MD345WH3","{""ImportId"":""MD345WH3""}"
+"MD345WH4","MD345WH4","MD345WH4","{""ImportId"":""MD345WH4""}"
+"MD345WH5","MD345WH5","MD345WH5","{""ImportId"":""MD345WH5""}"
+"MD12WM1","MD12WM1","MD12WM1","{""ImportId"":""MD12WM1""}"
+"MD12WM2","MD12WM2","MD12WM2","{""ImportId"":""MD12WM2""}"
+"MD12WM3","MD12WM3","MD12WM3","{""ImportId"":""MD12WM3""}"
+"MD12WM4","MD12WM4","MD12WM4","{""ImportId"":""MD12WM4""}"
+"MD12WM5","MD12WM5","MD12WM5","{""ImportId"":""MD12WM5""}"
+"MD345WM1","MD345WM1","MD345WM1","{""ImportId"":""MD345WM1""}"
+"MD345WM2","MD345WM2","MD345WM2","{""ImportId"":""MD345WM2""}"
+"MD345WM3","MD345WM3","MD345WM3","{""ImportId"":""MD345WM3""}"
+"MD345WM4","MD345WM4","MD345WM4","{""ImportId"":""MD345WM4""}"
+"MD345WM5","MD345WM5","MD345WM5","{""ImportId"":""MD345WM5""}"
+"LS","LS","LS","{""ImportId"":""LS""}"
