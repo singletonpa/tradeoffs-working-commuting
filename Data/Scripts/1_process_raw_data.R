@@ -1,6 +1,7 @@
 ########################################
-# Project:  Niranjan Poudel MS Thesis
+# Project:  Understanding tradeoffs between working and commuting
 # Authors:  Patrick Singleton (patrick.singleton@usu.edu)
+#           Niranjan Poudel (niranjan111@hotmail.com)
 # File:     1_process_raw_data.R
 # Date:     2023 Summer
 # About:    Loads & processes raw survey data from Qualtrics
@@ -32,8 +33,6 @@ library(readr)
 #                             "VTTS+Quote_December+15,+2020_09.06.csv"))
 # Data5 <- read_csv(file.path("Data", "1_Raw", 
 #                             "VTTS+Quote_December+18,+2020_16.20.csv"))
-
-
 Data <- read_csv(file.path("Data", "1_Raw",
                            "VTTS+Quote_August+9,+2023_08.24.csv"))
 
@@ -41,16 +40,10 @@ Data <- read_csv(file.path("Data", "1_Raw",
 # Combine data
 
 # Column names
-# DataCols <- data.frame(Name=names(Data5), 
-#                        Name1=names(Data5),
-#                        Name2=t(Data5[1,]),
-#                        Name3=t(Data5[2,]))
-
-DataCols <- data.frame(Name=names(Data),
-                       Name1=names(Data),
-                       Name2=t(Data[1, ]),
-                       Name3=t(Data[2, ]))
-
+# DataCols <- data.frame(Name=names(Data5),  Name1=names(Data5),
+#                        Name2=t(Data5[1,]), Name3=t(Data5[2,]))
+DataCols <- data.frame(Name=names(Data),  Name1=names(Data), 
+                       Name2=t(Data[1,]), Name3=t(Data[2,]))
 row.names(DataCols) <- NULL
 View(DataCols)
 
@@ -60,7 +53,7 @@ View(DataCols)
 # Data3 <- Data3[-1,]; Data3 <- Data3[-1,]
 # Data4 <- Data4[-1,]; Data4 <- Data4[-1,]
 # Data5 <- Data5[-1,]; Data5 <- Data5[-1,]
-Data <- Data[-1, ]; Data <- Data[-1, ]
+Data <- Data[-1,]; Data <- Data[-1,]
 
 # Check names
 # names(Data1) == names(Data2)
@@ -106,7 +99,6 @@ Data$rid <- NA
 saveRDS(Data, file.path("Data", "2_Anonymous", "Data.rds"))
 write.csv(Data, file.path("Data", "2_Anonymous",
                           "Data.csv"), row.names=F)
-
 saveRDS(DataCols, file.path("Data", "2_Anonymous", "DataCols.rds"))
 write.csv(DataCols, file.path("Data", "2_Anonymous",
                               "DataCols.csv"), row.names=F)

@@ -1,6 +1,7 @@
 ########################################
-# Project:  Niranjan Poudel MS Thesis
+# Project:  Understanding tradeoffs between working and commuting
 # Authors:  Patrick Singleton (patrick.singleton@usu.edu)
+#           Niranjan Poudel (niranjan111@hotmail.com)
 # File:     2_process_anon_data.R
 # Date:     2023 Summer
 # About:    Processes anonymous data
@@ -41,7 +42,6 @@ c_integer <- c("Progress", "Duration (in seconds)",
                "Q_TotalDuration", "gc", "Commute days", 
                "Work in hours", "Work Minutes", 
                "DWT", "Work days", "TTPD")
-
 c_numeric <- c("LocationLatitude", "LocationLongitude",
                "Q5.4_1_TEXT", "Q5.4_2_TEXT", "Q5.4_3_TEXT",
                "Q6.4_1_TEXT", "Q6.4_2_TEXT", "Q6.4_3_TEXT","Q6.5_1",
@@ -51,56 +51,49 @@ c_numeric <- c("LocationLatitude", "LocationLongitude",
                grep("First Click", names(Data), value=T), 
                grep("Last Click", names(Data), value=T), 
                grep("Page Submit", names(Data), value=T), 
-               "Income PD", "Gallons consumed", "Calculated fuel cost",
-               "Fuel cost from provided", "Parking cost", "Toll cost",
-               "Fare cost", "TCPD", "PTTC1", "PTTC2", "PWTC1", "PWTC2",
+               "Income PD", "Gallons consumed", 
+               "Calculated fuel cost", "Fuel cost from provided", 
+               "Parking cost", "Toll cost", "Fare cost", 
+               "TCPD", "PTTC1", "PTTC2", "PWTC1", "PWTC2",
                "PINCC1", "PINCC2", "PTCC1", "PTCC2", "CINCC1", "CINCC2", 
                grep("MD12", names(Data), value=T), 
                grep("MD345", names(Data), value=T), 
                grep("M15TC", names(Data), value=T), 
                grep("M3TC", names(Data), value=T))
-
 c_datetime <- c("StartDate", "EndDate", "RecordedDate")
-
 temp <- c()
-
 for (i in c(9 : 13)) {
   for (j in seq(2, 20, 2)) {
     temp <- c(temp, paste0("Q", i, ".", j))
   }; rm(j)
 }; rm(i)
-
-
 c_factor <- c("Q1.2", "Q1.5", "Q1.6", "Q2.1", "Q2.2", "Q5.4",
               "Q6.2", "Q6.3", "Q6.4", "Q6.6", "Q6.7", "Q6.8", 
               "Q6.9", "Q6.10", "Q14.1_1", "Q14.1_2", "Q14.1_3",
               "Q14.1_4", "Q14.4", "Q14.5", "Q14.6", "Q14.7",
               "Q14.8", "Q14.9", "Q15.2", "Q15.7", "Q15.8",
               "Q15.9", "Q15.10", "Mode", temp)
-
 c_check_text <- c("Q2.2_3_TEXT", "Q6.2_6_TEXT", "Q14.3_1", "Q15.3", "Q16.2")
 # all other columns are characters, no change
 
 # Convert logical columns
 for (i in c_logical) {
-  
-  Data[, i] <- as.logical(Data[, i], tz="America/Denver")
-  
+  Data[,i] <- as.logical(Data[ i], tz="America/Denver")
 }; rm(i)
 
 # Convert integer columns
 for (i in c_integer) {
-  Data[, i] <- as.integer(Data[, i], tz="America/Denver")
+  Data[,i] <- as.integer(Data[,i], tz="America/Denver")
 }; rm(i)
 
 # Convert numeric columns
 for (i in c_numeric) {
-  Data[, i] <- as.numeric(Data[, i], tz="America/Denver")
+  Data[,i] <- as.numeric(Data[,i], tz="America/Denver")
 }; rm(i)
 
 # Convert datetime columns
 for (i in c_datetime) {
-  Data[, i] <- as.POSIXct(Data[, i], tz="America/Denver")
+  Data[,i] <- as.POSIXct(Data[,i], tz="America/Denver")
 }; rm(i)
 
 # Convert factor columns
@@ -109,37 +102,25 @@ for (i in c_factor) {
   print(i)
   print(table(Data[,i]))
 }; rm(i)
-
-
-
 # format factors
-Data[, "Q1.2"] <- factor(
-  Data[, "Q1.2"], 
-  levels=c(
-    "Accept",
-    "Decline"
-  )
-)
-
-Data[, "Q1.5"] <- factor(
+Data[,"Q1.2"] <- factor(Data[,"Q1.2"], levels=c("Accept","Decline"))
+Data[,"Q1.5"] <- factor(
   Data[, "Q1.5"], 
   levels=c(
     "United States of America.",
     "Outside of United States of America."
   )
 )
-
-Data[, "Q1.6"] <- factor(
-  Data[, "Q1.6"],
+Data[,"Q1.6"] <- factor(
+  Data[,"Q1.6"],
   levels = c(
     "Yes, I am currently commuting to work on regular basis.",
     "No, but I used to commute to work on regular basis before the pandemic.",
     "No"), labels=c("YesCurrently", "NoUsedTo", "No"
   )
 )
-
-Data[, "Q2.1"] <- factor(
-  Data[, "Q2.1"], 
+Data[,"Q2.1"] <- factor(
+  Data[,"Q2.1"], 
   levels=c(
     "Below $15,000", 
     "$15,000 to $49,999", 
@@ -149,27 +130,23 @@ Data[, "Q2.1"] <- factor(
     "Prefer not to answer"
   )
 )
-
-Data[, "Q2.2"] <- factor(
-  Data[, "Q2.2"], 
+Data[,"Q2.2"] <- factor(
+  Data[,"Q2.2"], 
   levels=c(
     "Male", "Female", 
     "Prefer to self-describe:",
     "Prefer not to answer"
   )
 )
-
-
-Data[, "Q5.4"] <- factor(
-  Data[, "Q5.4"], 
+Data[,"Q5.4"] <- factor(
+  Data[,"Q5.4"], 
   levels=paste0(
     "Income in dollars per ",
     c("day", "week", "month")
   )
 )
-
-Data[, "Q6.2"] <- factor(
-  Data[, "Q6.2"], 
+Data[,"Q6.2"] <- factor(
+  Data[,"Q6.2"], 
   levels=c(
     paste("Automobile, as a driver (you own a vehicle",
           "rental car or car share vehicle)"),
@@ -182,14 +159,12 @@ Data[, "Q6.2"] <- factor(
   ), 
   labels=c("AutoD", "AutoP", "Transit", "Walk", "Bike", "Other")
 )
-
-Data[, "Q6.3"] <- factor(
-  Data[, "Q6.3"],
+Data[,"Q6.3"] <- factor(
+  Data[,"Q6.3"],
   levels=c("Yes", "No")
 )
-
-Data[, "Mode"] <- factor(
-  Data[, "Mode"], 
+Data[,"Mode"] <- factor(
+  Data[,"Mode"], 
   levels=c(
     paste("Automobile, as a driver (you own a vehicle",
           "rental car or car share vehicle)"),
@@ -202,9 +177,8 @@ Data[, "Mode"] <- factor(
   labels=c("AutoD", "AutoP", "Transit", "Walk", "Bike", "Other"
   )
 )
-
-Data[, "Q6.4"] <- factor(
-  Data[, "Q6.4"], 
+Data[,"Q6.4"] <- factor(
+  Data[,"Q6.4"], 
   levels=c(
     paste0(
       "Cost in dollars per ",
@@ -215,66 +189,50 @@ Data[, "Q6.4"] <- factor(
     "I do not know my exact fuel cost."
   )
 )
+Data[,"Q6.6"] <- factor(Data[,"Q6.6"], levels=c("Yes", "No"))
+Data[,"Q6.7"] <- factor(
+  Data[, "Q6.7"], 
+  levels=paste0("Cost in dollars per ", c("day", "week", "month"))
+)
+Data[,"Q6.8"] <- factor(Data[,"Q6.8"], levels=c("Yes", "No"))
 
-Data[, "Q6.6"] <- factor(Data[, "Q6.6"], 
-                         levels=c("Yes", "No"))
-
-Data[, "Q6.7"] <- factor(Data[, "Q6.7"], 
-                         levels=paste0("Cost in dollars per ",
-                                       c("day", "week", "month")))
-
-Data[, "Q6.8"] <- factor(Data[, "Q6.8"],
-                         levels=c("Yes", "No"))
-
-Data[, "Q6.9"] <- factor(Data[, "Q6.9"],
-                         levels=paste0("Cost in dollars per ", 
-                                       c("day", "week", "month")))
-
-Data[, "Q6.10"] <- factor(Data[, "Q6.10"],
-                          levels=c("Yes", "No"))
-
-for (i in paste0("Q14.1_", c(1 : 4))) {
-  Data[, i] <- factor(Data[, i], 
-                     levels=c("Not important", "Slightly important", 
-                              "Moderately important", 
-                              "Important", "Very important"))
+Data[,"Q6.9"] <- factor(
+  Data[,"Q6.9"],
+  levels=paste0("Cost in dollars per ", c("day", "week", "month"))
+)
+Data[,"Q6.10"] <- factor(Data[,"Q6.10"], levels=c("Yes", "No"))
+for (i in paste0("Q14.1_", c(1:4))) {
+  Data[,i] <- factor(
+    Data[,i], 
+    levels=c("Not important", "Slightly important", 
+             "Moderately important", "Important", "Very important"))
 }; rm(i)
-
 for (i in c("Q14.4", "Q14.5")) {
-  Data[, i] <- factor(Data[, i], 
-                     levels=c("Extremely dissatisfied",
-                              "Somewhat dissatisfied", 
-                              "Neither satisfied nor dissatisfied", 
-                              "Somewhat satisfied",
-                              "Extremely satisfied"))
+  Data[,i] <- factor(
+    Data[,i], 
+    levels=c("Extremely dissatisfied", "Somewhat dissatisfied", 
+            "Neither satisfied nor dissatisfied", 
+            "Somewhat satisfied", "Extremely satisfied"))
 }; rm(i)
-
-Data[, "Q14.6"] <- factor(Data[, "Q14.6"], levels=c("Yes", "No"))
-Data[, "Q14.7"] <- factor(Data[, "Q14.7"], levels=c("Yes", "No"))
-Data[, "Q14.8"] <- factor(Data[, "Q14.8"], 
-                          levels=c("Working", "Commuting to work"))
-
-Data[, "Q14.9"] <- factor(Data[, "Q14.9"], 
-                         levels=c("Zero minutes",
-                                  "1 to 5 minutes", 
-                                  "6 to 15 minutes", 
-                                  "More than 15 minutes"))
-
-Data[, "Q15.2"] <- factor(Data[, "Q15.2"], 
-                         levels=c("18 to 29 years",
-                                  "30 to 44 years", 
-                                  "45 to 59 years",
-                                  "60 to 79 years", 
-                                  "80 years and over"))
-
+Data[,"Q14.6"] <- factor(Data[,"Q14.6"], levels=c("Yes", "No"))
+Data[,"Q14.7"] <- factor(Data[,"Q14.7"], levels=c("Yes", "No"))
+Data[,"Q14.8"] <- factor(Data[,"Q14.8"], 
+                         levels=c("Working", "Commuting to work"))
+Data[,"Q14.9"] <- factor(
+  Data[,"Q14.9"], 
+  levels=c("Zero minutes", "1 to 5 minutes", 
+           "6 to 15 minutes", "More than 15 minutes"))
+Data[,"Q15.2"] <- factor(
+  Data[,"Q15.2"], 
+  levels=c("18 to 29 years", "30 to 44 years", 
+           "45 to 59 years", "60 to 79 years", "80 years and over")
+)
 Data[,"Q15.7"] <- factor(Data[,"Q15.7"], levels=c("Yes", "No"))
-
 for (i in c("Q15.8", "Q15.9")) {
-  Data[, i] <- factor(Data[, i], levels=c("Urban", "Suburban", "Rural"))
+  Data[,i] <- factor(Data[,i], levels=c("Urban", "Suburban", "Rural"))
 }; rm(i)
-
-Data[, "Q15.10"] <- factor(
-  Data[, "Q15.10"], 
+Data[,"Q15.10"] <- factor(
+  Data[,"Q15.10"], 
   levels=c(
     "Less than a high school diploma", 
     "High school diploma or equivalent (e.g. GED)", 
@@ -282,18 +240,14 @@ Data[, "Q15.10"] <- factor(
     paste("Master's degree, doctorate degree,",
           "or professional degree beyond bachelor's degree"),
     "Prefer not to answer"
-  ), labels=c("LessHS", "HS", "Bach", "Mast", 
-              "Prefer not to answer")
+  ), labels=c("LessHS", "HS", "Bach", "Mast", "Prefer not to answer")
 )
-
 for (i in temp) {
-  Data[, i] <- factor(Data[, i], 
-                      levels=c("Current",
-                               "Alternative A",
-                               "Alternative B"),
-                      labels=c("C", "A", "B"))
+  Data[,i] <- factor(
+    Data[,i], 
+    levels=c("Current", "Alternative A", "Alternative B"),
+    labels=c("C", "A", "B"))
 }; rm(i)
-
 # inspect
 for (i in c_factor) {
   print(i)
@@ -391,38 +345,29 @@ rm(c_old, c_new)
 # Fix text data
 # GEND_TEXt
 table(Data$GEND_TEXT)
-
 # - nothing to fix
 # MODE_TEXT
 table(Data$MODE_TEXT)
-
 # - change to AutoD
 tfix <- which(Data$MODE_TEXT %in% c("car", "Company car"))
 Data$MODE[tfix] <- "AutoD"
 Data$MODE_TEXT[tfix] <- NA
 rm(tfix)
-
 # - change to AutoP
 tfix <- which(Data$MODE_TEXT %in% 
-                c("coworker",
-                  "Mom drives me", 
-                  "Rode with coworkers"))
-
+                c("coworker", "Mom drives me", "Rode with coworkers"))
 Data$MODE[tfix] <- "AutoP"
 Data$MODE_TEXT[tfix] <- NA
 rm(tfix)
-
 # RACE_TEXT
 table(Data$RACE_TEXT)
-
 # - nothing to fix
 # TIMEDEP
 table(Data$TIMEDEP)
 # - change to be time on 2020-01-01
-Data$TIMEDEP <- as.POSIXct(ifelse(is.na(Data$TIMEDEP),
-                                  NA, paste0("2020-01-01 ",
-                                             Data$TIMEDEP, ":00")),
-                           tz="America/Denver")
+Data$TIMEDEP <- as.POSIXct(
+  ifelse(is.na(Data$TIMEDEP), NA, paste0("2020-01-01 ", Data$TIMEDEP, ":00")),
+  tz="America/Denver")
 
 # Fix clearly incorrect responses
 # inspect
@@ -491,11 +436,11 @@ table(Data$EDUC)
 
 # Save
 saveRDS(Data, file.path("Data", "3_Processed", "Data.rds"))
-write.csv(Data, file.path("Data", "3_Processed", "Data.csv"), row.names=F)
+write.csv(Data, file.path("Data", "3_Processed", "Data.csv"), 
+          row.names=F)
 saveRDS(DataCols, file.path("Data", "3_Processed", "DataCols.rds"))
-write.csv(DataCols, file.path("Data",
-                              "3_Processed",
-                              "DataCols.csv"), row.names=F)
+write.csv(DataCols, file.path("Data", "3_Processed", "DataCols.csv"), 
+          row.names=F)
 
 ########################################
 # Clean up

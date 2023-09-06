@@ -1,6 +1,7 @@
 ########################################
-# Project:  Niranjan Poudel MS Thesis
+# Project:  Understanding tradeoffs between working and commuting
 # Authors:  Patrick Singleton (patrick.singleton@usu.edu)
+#           Niranjan Poudel (niranjan111@hotmail.com)
 # File:     5_descriptive_stats.R
 # Date:     2023 Summer
 # About:    Calculates descriptive statistics from wide and long datasets
@@ -56,7 +57,8 @@ cols2 <- c("AGE1", "AGE2_18_29", "AGE2_30_44", "AGE2_45_59", "AGE2_60_UP",
            "PLACETYPE_Urban", "PLACETYPE_Sub_Urban", 
            "PLACETYPE_Suburban", "PLACETYPE_Rural_all", 
            "WDAYS", "CDAYS", "COMMUTE_YesCurrently", "COMMUTE_NoUsedTo", 
-           "MODE_AutoD", "MODE_AutoP", "MODE_Transit", "MODE_Walk", "MODE_Bike", 
+           "MODE_AutoD", "MODE_AutoP", "MODE_Transit", 
+           "MODE_Walk", "MODE_Bike", 
            "PARKCOST_Yes", "PARKCOST_No", "TOLLCOST_Yes", "TOLLCOST_No", 
            "TIMEDEP_Morning", "TIMEDEP_AfterEveNight", 
            "FLEXWORK_Yes", "FLEXWORK_No", "FLEXINC_Yes", "FLEXINC_No", 
@@ -77,7 +79,6 @@ df0 <- data.frame(Var=c("C", "A", "B"),
                   Freq=as.vector(table(dl[, cols0])), 
                   Prop=as.vector(prop.table(table(dl[, cols0]))))
 df0
-
 
 # Descriptive statistics for attributes of alternatives
 # initialize
@@ -122,14 +123,14 @@ df2
 # Save descriptive statistics
 
 # Save
-write.csv(mycor, file.path("Data", 
-                           "Descriptives", "corr_vars.csv"), row.names=T)
-write.csv(df0, file.path("Data", 
-                         "Descriptives", "desc_alts.csv"), row.names=F)
-write.csv(df1, file.path("Data", 
-                         "Descriptives", "desc_atts.csv"), row.names=F)
-write.csv(df2, file.path("Data", 
-                         "Descriptives", "desc_vars.csv"), row.names=F)
+write.csv(mycor, file.path("Data", "Descriptives", "corr_vars.csv"), 
+          row.names=T)
+write.csv(df0, file.path("Data", "Descriptives", "desc_alts.csv"), 
+          row.names=F)
+write.csv(df1, file.path("Data", "Descriptives", "desc_atts.csv"), 
+          row.names=F)
+write.csv(df2, file.path("Data", "Descriptives", "desc_vars.csv"), 
+          row.names=F)
 
 ########################################
 # Clean up
