@@ -1,6 +1,7 @@
 ########################################
-# Project:  Niranjan Poudel MS Thesis
+# Project:  Understanding tradeoffs between working and commuting
 # Authors:  Patrick Singleton (patrick.singleton@usu.edu)
+#           Niranjan Poudel (niranjan111@hotmail.com)
 # File:     A_MNL.R
 # Date:     2023 Summer
 # About:    Estimates MNL Model A
@@ -83,13 +84,12 @@ apollo_probabilities <- function(apollo_beta, apollo_inputs,
   
   # List of utilities
   V <- list()
-  V[["C"]] <- ascC + b_TC * (g_TT * TT_C + 
-                               g_TC * TC_C + g_WT * WT_C + g_IN * IN_C)
-  V[["A"]] <- ascA + b_TC * (g_TT * TT_A +
-                               g_TC * TC_A + 
-                               g_WT * WT_A + g_IN * IN_A)
-  V[["B"]] <- ascB + b_TC * (g_TT * TT_B + 
-                               g_TC * TC_B + g_WT * WT_B + g_IN * IN_B)
+  V[["C"]] <- ascC + b_TC * (g_TT * TT_C + g_TC * TC_C + 
+                             g_WT * WT_C + g_IN * IN_C)
+  V[["A"]] <- ascA + b_TC * (g_TT * TT_A + g_TC * TC_A + 
+                             g_WT * WT_A + g_IN * IN_A)
+  V[["B"]] <- ascB + b_TC * (g_TT * TT_B + g_TC * TC_B + 
+                             g_WT * WT_B + g_IN * IN_B)
   
   # Define settings for MNL model component
   mnl_settings <- list(
@@ -119,8 +119,7 @@ apollo_probabilities <- function(apollo_beta, apollo_inputs,
 # Estimate model
 model <- apollo_estimate(
   apollo_beta, apollo_fixed, apollo_probabilities, apollo_inputs, 
-  estimate_settings=list(
-    writeIter=F)
+  estimate_settings=list(writeIter=F)
 )
 
 # Print results
