@@ -1,9 +1,10 @@
 ########################################
-# Project:  Niranjan Poudel MS Thesis
+# Project:  Understanding tradeoffs between working and commuting
 # Authors:  Patrick Singleton (patrick.singleton@usu.edu)
+#           Niranjan Poudel (niranjan111@hotmail.com)
 # File:     B_MMNL.R
 # Date:     2023 Summer
-# About:    Estimates MMNL Model
+# About:    Estimates MMNL Model B
 ########################################
 
 # Major edits
@@ -89,7 +90,8 @@ apollo_randCoeff <- function(apollo_beta, apollo_inputs) {
   randcoeff[["ascA"]] =      m_ascA + s_ascA * draws_ascA
   randcoeff[["b_TC"]] = -exp(m_b_TC + s_b_TC * draws_b_TC)
   randcoeff[["g_TT"]] =  exp(m_g_TT + s_g_TT * draws_g_TT) 
-  randcoeff[["g_WT"]] =  exp(m_g_WT + s_g_WT * draws_g_WT + s_TTWT * draws_g_TT) 
+  randcoeff[["g_WT"]] =  exp(m_g_WT + s_g_WT * draws_g_WT + 
+                             s_TTWT * draws_g_TT) 
   randcoeff[["g_IN"]] = -exp(m_g_IN + s_g_IN * draws_g_IN) 
   
   return(randcoeff)
@@ -119,12 +121,12 @@ apollo_probabilities <- function(apollo_beta, apollo_inputs,
   
   # List of utilities
   V <- list()
-  V[["C"]] <- ascC + b_TC * (g_TT * TT_C + 
-                               g_TC * TC_C + g_WT * WT_C + g_IN * IN_C)
-  V[["A"]] <- ascA + b_TC * (g_TT * TT_A + 
-                               g_TC * TC_A + g_WT * WT_A + g_IN * IN_A)
-  V[["B"]] <- ascB + b_TC * (g_TT * TT_B + 
-                               g_TC * TC_B + g_WT * WT_B + g_IN * IN_B)
+  V[["C"]] <- ascC + b_TC * (g_TT * TT_C + g_TC * TC_C + 
+                             g_WT * WT_C + g_IN * IN_C)
+  V[["A"]] <- ascA + b_TC * (g_TT * TT_A + g_TC * TC_A + 
+                             g_WT * WT_A + g_IN * IN_A)
+  V[["B"]] <- ascB + b_TC * (g_TT * TT_B + g_TC * TC_B + 
+                             g_WT * WT_B + g_IN * IN_B)
   
   # Define settings for MNL model component
   mnl_settings <- list(
@@ -157,12 +159,7 @@ apollo_probabilities <- function(apollo_beta, apollo_inputs,
 # Estimate model
 model <- apollo_estimate(
   apollo_beta, apollo_fixed, apollo_probabilities, apollo_inputs, 
-  estimate_settings=list(
-    # hessianRoutine="maxLik", 
-    # scaling = c(
-    #   m_g_WT = 10,  s_g_WT = 10, 
-    #   m_g_IN = 100, s_g_IN = 100), 
-    writeIter=F)
+  estimate_settings=list(writeIter=F)
 )
 
 # Print results
@@ -189,9 +186,10 @@ apollo_deltaMethod(model, deltaMethod_settings=list(
 ))
 
 # Calculate conditionals and unconditionals
-conditionals <- apollo_conditionals(model, apollo_probabilities, apollo_inputs)
-unconditionals <- apollo_unconditionals(model,
-                                        apollo_probabilities, apollo_inputs)
+conditionals <- apollo_conditionals(
+  model, apollo_probabilities, apollo_inputs)
+unconditionals <- apollo_unconditionals(
+  model, apollo_probabilities, apollo_inputs)
 
 # Save
 save(conditionals, file = "B_conditionals.rds")
