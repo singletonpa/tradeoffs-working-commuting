@@ -10,6 +10,8 @@ This repository contains data and scripts associated with the "Understanding tra
   - Survey data collection, using an online questionnaire, including a stated choice experiment about tradeoffs between daily commute travel time, travel cost, work time, and income. 
   - Discrete choice modeling of choices about tradeoffs between commuting, working, and money. 
 
+[![DOI](https://zenodo.org/badge/688134386.svg)](https://zenodo.org/badge/latestdoi/688134386)
+
 ## Description of folders and files
 * Many of these scripts were written in R. To use, [download R](https://cloud.r-project.org/) and then [download RStudio](https://posit.co/products/open-source/rstudio/).
 * **tradeoffs-working-commuting.Rproj**: This [RStudio project](https://support.posit.co/hc/en-us/articles/200526207-Using-RStudio-Projects) file allows R users to use relative file paths from this root folder, if R scripts are opened after opening this R project file.
